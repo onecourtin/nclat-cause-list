@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NCLAT Cause List — OneCourt</title>
+<meta name="description" content="NCLAT daily cause list as a searchable web page — court-wise, with case numbers, parties and counsel. Principal Bench (New Delhi) and Chennai Bench. Updated automatically from the official lists.">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700;800&display=swap');
+:root{
+  --ink:#201e1d; --paper:#FFFFFF; --panel:#f3f2f2; --card-alt:#eae9e9;
+  --line:#d7d3d3; --primary:#201e1d; --on-primary:#f3f2f2; --nav-dim:#9b9797;
+  --accent:#ec3013; --accent-dark:#ae1800; --accent-bg:#fff2ef;
+  --gold:#7d7979; --muted:#605d5d; --faint:#9b9797;
+  --ok:#1F8A5F; --danger:#7a1220; --warn:#B45309; --warn-bg:#FEF3C7;
+  --font-ui:'Archivo',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+}
+[hidden]{display:none!important;}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html,body{margin:0;padding:0;}
+body{font-family:var(--font-ui);background:var(--panel);color:var(--ink);font-size:13.5px;line-height:1.55;min-height:100vh;}
+::selection{background:#ffe0d9;color:#201e1d;}
+a{color:var(--accent);}
+a:hover{color:var(--accent-dark);}
+*:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+
+.site-header{background:var(--primary);color:var(--on-primary);position:sticky;top:0;z-index:40;}
+.site-header .inner{max-width:1180px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:60px;padding:0 24px;}
+.site-header .left{display:flex;align-items:center;gap:12px;}
+.oc-logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit;}
+.oc-logo:hover{opacity:.85;}
+.oc-logo .mark{width:34px;height:34px;color:var(--on-primary);display:flex;align-items:center;justify-content:center;}
+.oc-logo .name{font-size:20px;font-weight:800;letter-spacing:-.02em;}
+.site-header .tag{font-size:11px;color:var(--nav-dim);border-left:1px solid rgba(255,255,255,.16);padding-left:12px;margin-left:4px;letter-spacing:.1em;text-transform:uppercase;font-weight:600;}
+.site-header .right{display:flex;align-items:center;gap:20px;}
+.oc-nav{display:flex;align-items:center;gap:20px;font-size:13.5px;}
+.oc-nav a.oc-navlink{color:rgba(255,255,255,.72);text-decoration:none;white-space:nowrap;}
+.oc-nav a.oc-navlink:hover{color:#fff;}
+details.oc-tools{position:relative;}
+details.oc-tools>summary{list-style:none;outline:none;cursor:pointer;color:rgba(255,255,255,.72);display:inline-flex;align-items:center;gap:6px;white-space:nowrap;font-size:13.5px;}
+details.oc-tools>summary:hover{color:#fff;}
+details.oc-tools>summary::-webkit-details-marker{display:none;}
+details.oc-tools>summary .car{font-size:10px;}
+details.oc-tools[open]>summary .car{display:inline-block;transform:rotate(180deg);}
+details.oc-tools .menu{position:absolute;top:calc(100% + 14px);right:0;min-width:240px;background:#fff;border:1.5px solid var(--line);box-shadow:0 12px 34px color-mix(in srgb, var(--ink) 24%, transparent);padding:6px;z-index:60;}
+details.oc-tools .menu a{display:block;padding:10px 12px;text-decoration:none;color:var(--ink);font-size:13.5px;}
+details.oc-tools .menu a:hover{background:rgba(0,0,0,.05);}
+details.oc-tools .menu a.current{font-weight:600;background:rgba(0,0,0,.05);}
+.oc-contact{display:inline-flex;align-items:center;text-decoration:none;background:var(--accent);color:#fff;font-size:13px;font-weight:600;padding:8px 16px;border:1.5px solid var(--accent);white-space:nowrap;}
+.oc-contact:hover{background:var(--accent-dark);border-color:var(--accent-dark);color:#fff;}
+
+.app{max-width:1180px;margin:0 auto;padding:36px 24px 64px;}
+header.top{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;border-bottom:3px solid var(--ink);padding-bottom:18px;margin-bottom:22px;flex-wrap:wrap;}
+header.top .eyebrow{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:10px;}
+header.top h1{font-size:36px;margin:0;font-weight:800;letter-spacing:-.03em;line-height:1.03;}
+header.top h1 em{font-style:normal;color:var(--accent);}
+header.top .meta{font-size:12px;color:var(--muted);text-align:right;}
+
+/* ── Controls ── */
+.controls{background:var(--paper);border:1.5px solid var(--line);margin-bottom:20px;}
+.ctl-row{padding:14px 16px;border-bottom:1.5px solid var(--line);display:flex;gap:14px;align-items:flex-start;}
+.ctl-row:last-child{border-bottom:none;}
+.ctl-label{flex:0 0 74px;font-size:10.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding-top:7px;}
+.ctl-body{flex:1;min-width:0;}
+
+.dates{display:flex;flex-wrap:wrap;gap:6px;align-items:center;}
+.chip{font-family:inherit;font-size:13px;border:1.5px solid var(--line);background:#fff;color:var(--ink);padding:6px 12px;cursor:pointer;white-space:nowrap;line-height:1.3;}
+.chip:hover{border-color:var(--ink);}
+.chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:#fff;}
+.chip .dow{font-weight:700;margin-right:4px;}
+select.older{font-family:inherit;font-size:13px;padding:6px 8px;border:1.5px solid var(--line);background:#fff;color:var(--muted);}
+
+.search{position:relative;}
+.search input{width:100%;font-family:inherit;font-size:15px;padding:10px 38px 10px 12px;border:1.5px solid var(--line);background:#fff;color:var(--ink);outline:none;}
+.search input:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(236,48,19,.14);}
+.search .clear{position:absolute;right:6px;top:50%;transform:translateY(-50%);border:none;background:none;font-size:20px;line-height:1;color:var(--faint);cursor:pointer;padding:4px 8px;}
+.search .clear:hover{color:var(--ink);}
+.hint{font-size:12px;color:var(--muted);margin-top:6px;}
+
+.picker-group{display:flex;gap:10px;align-items:baseline;margin-bottom:8px;}
+.picker-group:last-child{margin-bottom:0;}
+.pg-name{flex:0 0 92px;font-size:11.5px;font-weight:700;color:var(--muted);}
+.pills{display:flex;flex-wrap:wrap;gap:5px;}
+.pill{font-family:inherit;font-size:12.5px;font-weight:600;border:1.5px solid var(--line);background:#fff;color:var(--ink);padding:4px 10px;cursor:pointer;min-width:38px;text-align:center;}
+.pill:hover{border-color:var(--ink);}
+.pill[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff;}
+.picker-select{display:none;width:100%;font-family:inherit;font-size:14px;padding:9px 10px;border:1.5px solid var(--line);background:#fff;color:var(--ink);}
+
+/* ── Bench ── */
+.bench{background:var(--paper);border:1.5px solid var(--line);margin-bottom:20px;}
+.bench-head{padding:16px 18px;border-bottom:1.5px solid var(--line);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;}
+.bench-court{font-size:22px;font-weight:800;letter-spacing:-.02em;line-height:1.15;}
+.bench-court small.main{color:var(--ink);}
+.bench-side a{font-size:12px;font-weight:700;color:var(--accent);text-decoration:none;}
+.bench-side a:hover{text-decoration:underline;}
+.bench-court small{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-left:8px;vertical-align:middle;}
+.judges{margin-top:6px;font-size:13.5px;line-height:1.6;}
+.judges div::before{content:"";display:inline-block;width:5px;height:5px;background:var(--gold);margin:0 8px 2px 0;}
+.bench-side{text-align:right;font-size:12px;color:var(--muted);display:flex;flex-direction:column;gap:3px;align-items:flex-end;}
+.bench-side .time{font-size:15px;font-weight:700;color:var(--ink);}
+.tag-pill{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:var(--card-alt);padding:2px 7px;margin:2px 0 0 4px;}
+.tag-pill.supp{background:var(--warn-bg);color:var(--warn);}
+details.notes{border-bottom:1.5px solid var(--line);background:#fcfbfb;}
+details.notes summary{cursor:pointer;padding:9px 18px;font-size:12px;font-weight:700;color:var(--muted);list-style:none;}
+details.notes summary::-webkit-details-marker{display:none;}
+details.notes summary::before{content:"▸ ";}
+details.notes[open] summary::before{content:"▾ ";}
+details.notes ul{padding:0 18px 12px 36px;font-size:12.5px;color:var(--ink);line-height:1.55;}
+details.notes li{margin-bottom:4px;}
+
+.section-title{padding:9px 18px;background:var(--card-alt);font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;border-bottom:1px solid var(--line);position:sticky;top:60px;z-index:5;}
+.section-title .count{color:var(--muted);font-weight:600;margin-left:6px;}
+
+.item{display:grid;grid-template-columns:58px 190px minmax(0,1fr) minmax(0,.85fr);column-gap:18px;padding:13px 18px;border-bottom:1px solid var(--line);}
+.item:last-child{border-bottom:none;}
+.item.conn{background:#fbfafa;}
+.item.conn .no{border-left:3px solid var(--gold);padding-left:7px;}
+.item.hit{background:var(--accent-bg);}
+.item.flash{animation:flash 1.6s ease-out;}
+@keyframes flash{from{background:#ffd8cf;}to{background:transparent;}}
+.no{font-size:17px;font-weight:800;letter-spacing:-.02em;}
+.no .ctag{display:block;font-size:9.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--gold);margin-top:2px;}
+.case{font-weight:600;word-break:break-word;}
+.case .sec{display:inline-block;font-size:10.5px;font-weight:700;color:var(--muted);background:var(--card-alt);padding:1px 6px;margin-top:4px;}
+.parties .vs{font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);margin:3px 0;}
+.parties .pty{font-weight:600;}
+.advs{font-size:12.5px;color:var(--muted);}
+.advs .lbl{display:block;font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--faint);}
+.advs .ra{margin-top:8px;}
+.xnotes{grid-column:3 / 5;margin-top:8px;font-size:12px;color:var(--muted);display:flex;flex-direction:column;gap:2px;}
+.xnotes .mm{color:var(--accent-dark);font-weight:700;}
+mark{background:#ffe08a;color:inherit;padding:0 1px;}
+
+.court-link{font-size:11px;font-weight:700;color:var(--accent);text-decoration:none;letter-spacing:.04em;text-transform:uppercase;cursor:pointer;background:none;border:none;font-family:inherit;padding:0;}
+.court-link:hover{text-decoration:underline;}
+.empty,.loading,.error{background:var(--paper);border:1.5px solid var(--line);padding:40px 24px;text-align:center;color:var(--muted);}
+.error{border-color:#e9b7ae;background:var(--accent-bg);color:var(--danger);text-align:left;}
+.empty strong,.error strong{display:block;color:var(--ink);font-size:15px;margin-bottom:6px;}
+
+.sources{font-size:12px;color:var(--muted);margin:-8px 0 20px;display:flex;flex-wrap:wrap;gap:4px 14px;}
+.sources a{text-decoration:none;font-weight:600;}
+.sources a:hover{text-decoration:underline;}
+.disclaimer{font-size:12px;color:var(--muted);line-height:1.6;border-left:3px solid var(--ink);background:var(--card-alt);padding:11px 14px;}
+
+.site-footer{border-top:1px solid var(--line);background:var(--card-alt);}
+.site-footer .inner{max-width:1180px;margin:0 auto;padding:20px 24px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:12px;color:var(--faint);}
+.site-footer .mono{letter-spacing:.06em;text-transform:uppercase;font-size:11px;font-weight:600;}
+
+@media(max-width:900px){
+  .item{grid-template-columns:52px minmax(0,1fr);row-gap:6px;}
+  .item .case{grid-column:2;}
+  .item .parties,.item .advs,.item .xnotes{grid-column:2;}
+  .xnotes{margin-top:2px;}
+}
+.more-row{display:none;}
+@media(max-width:760px){
+  .more-row{display:flex;grid-column:2;align-items:center;gap:8px;flex-wrap:wrap;margin-top:2px;}
+  .more{font-family:inherit;font-size:12px;font-weight:700;color:var(--muted);background:var(--panel);border:1.5px solid var(--line);padding:4px 10px;cursor:pointer;}
+  .more .car{display:inline-block;transition:transform .15s;}
+  .item.open .more .car{transform:rotate(180deg);}
+  .memo-tag{font-size:11px;font-weight:700;color:var(--accent-dark);}
+  .item .advs,.item .xnotes{display:none;}
+  .item.open .advs{display:block;}
+  .item.open .xnotes{display:flex;}
+  .site-header .inner{flex-wrap:wrap;height:auto;row-gap:8px;padding-top:10px;padding-bottom:10px;}
+  .oc-navlink{display:none;}
+  .app{padding:22px 16px 48px;}
+  header.top h1{font-size:28px;}
+  header.top .meta{text-align:left;}
+  .ctl-row{flex-direction:column;gap:6px;padding:12px;}
+  .ctl-label{padding-top:0;flex:none;}
+  .picker-groups{display:none;}
+  .picker-select{display:block;}
+  .bench-head{padding:14px;}
+  .bench-side{text-align:left;align-items:flex-start;}
+  .item{padding:12px 14px;column-gap:12px;}
+  .section-title{padding:8px 14px;top:0;position:static;}
+  .search input{font-size:16px;}
+}
+</style>
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="inner">
+    <div class="left">
+      <a class="oc-logo" href="https://onecourt.in">
+        <span class="mark"><svg viewBox="0 0 100 100" width="34" height="34"><rect x="12" y="12" width="76" height="76" rx="17" fill="none" stroke="currentColor" stroke-width="7"/><circle cx="40" cy="50" r="11" fill="none" stroke="currentColor" stroke-width="6"/><path d="M68 41 A11 11 0 1 0 68 59" fill="none" stroke="#C39A52" stroke-width="6" stroke-linecap="round"/></svg></span>
+        <span class="name">OneCourt</span>
+      </a>
+      <span class="tag">NCLAT Cause List</span>
+    </div>
+    <div class="right">
+      <nav class="oc-nav">
+        <a class="oc-navlink" href="https://onecourt.in/about-onecourt.html">Start Here</a>
+        <details class="oc-tools">
+          <summary>Tools for Lawyers <span class="car">▾</span></summary>
+          <div class="menu">
+            <a href="https://onecourt.in/Court_Holiday_Planner.html">Court Holiday Planner</a>
+            <a href="https://onecourt.in/vakalatnama-generator.html">Generate Vakalatnama</a>
+            <a href="https://onecourt.in/sctools/index.html">SC Filing Workspace</a>
+            <a href="https://onecourt.in/sctools/affidavit-generator.html">SC Affidavit Generator</a>
+            <a href="https://onecourt.in/sctools/cover-page.html">Cover Page Generator</a>
+            <a href="https://onecourt.in/sctools/office-report-limitation.html">Office Report on Limitation</a>
+            <a href="https://onecourt.in/sctools/proforma-first-listing.html">Proforma for First Listing</a>
+            <a href="https://onecourt.in/bare-acts">Bare Acts</a>
+            <a href="https://onecourt.in/sc/causelist/">SC Cause List</a>
+            <a href="https://onecourt.in/nclt/causelist/">NCLT Cause List</a>
+            <a class="current" href="https://onecourt.in/nclat/causelist/">NCLAT Cause List</a>
+          </div>
+        </details>
+      </nav>
+      <a class="oc-contact" href="https://onecourt.in/Contact%20Us.html">Feedback | Contact Us</a>
+    </div>
+  </div>
+</header>
+
+<div class="app">
+  <header class="top">
+    <div>
+      <div class="eyebrow">National Company Law Appellate Tribunal</div>
+      <h1>Daily Cause <em>List</em></h1>
+    </div>
+    <div class="meta" id="meta"></div>
+  </header>
+
+  <div class="controls">
+    <div class="ctl-row">
+      <div class="ctl-label">Date</div>
+      <div class="ctl-body"><div class="dates" id="dates"></div></div>
+    </div>
+    <div class="ctl-row">
+      <div class="ctl-label">Search</div>
+      <div class="ctl-body">
+        <div class="search">
+          <input id="q" type="text" inputmode="search" enterkeyhint="search" autocomplete="off" spellcheck="false"
+                 placeholder="Case no., party or advocate">
+          <button class="clear" id="qclear" type="button" aria-label="Clear search" hidden>×</button>
+        </div>
+        <div class="hint" id="qhint">Searches every court on the selected date.</div>
+      </div>
+    </div>
+    <div class="ctl-row" id="pickerRow" hidden>
+      <div class="ctl-label">Court</div>
+      <div class="ctl-body">
+        <div class="picker-groups" id="pickerGroups"></div>
+        <select class="picker-select" id="pickerSelect" aria-label="Court"></select>
+      </div>
+    </div>
+  </div>
+
+  <div class="sources" id="sources"></div>
+  <main id="out"><div class="loading">Loading cause lists…</div></main>
+
+  <p class="disclaimer">This page is generated automatically from the NCLAT's published PDF cause lists and is checked for new and revised lists through the day. Parsing can occasionally misplace a line, so confirm against the <a href="https://nclat.nic.in/daily-cause-list" target="_blank" rel="noopener">official cause list</a> before relying on it in court.</p>
+</div>
+
+<footer class="site-footer">
+  <div class="inner">
+    <span>© 2026 <a href="https://onecourt.in" style="color:inherit;text-decoration:none;">OneCourt</a> · Built for Indian lawyers</span>
+    <span class="mono">NCLAT Cause List</span>
+  </div>
+</footer>
+
+<script>
+(function () {
+  "use strict";
+
+  // Data is published by the scraper's GitHub Action. Locally, read the
+  // checked-out data/ folder so the page can be tested without pushing.
+  var LOCAL = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname) || location.protocol === "file:";
+  var DATA = LOCAL ? "data/" : "https://raw.githubusercontent.com/onecourtin/nclat-cause-list/main/data/";
+  var OFFICIAL = "https://nclat.nic.in/daily-cause-list";
+  var MAX_RESULTS = 300;
+  var DEFAULT_COURT = "ch";
+
+  // Pill text for each court key; anything unknown falls back to its own name.
+  var SHORT = { ch: "Chairperson", II: "Court-II", IV: "Court-IV", chennai: "Chennai", reg: "Registrar" };
+
+  var $ = function (id) { return document.getElementById(id); };
+  var state = { index: null, date: null, day: null, court: null, q: "" };
+  var cache = {};
+
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+
+  function getJSON(path) {
+    return fetch(path, { cache: "no-cache" }).then(function (r) {
+      if (!r.ok) throw new Error(r.status + " " + r.statusText + " for " + path);
+      return r.json();
+    });
+  }
+
+  // ── Dates ─────────────────────────────────────────────────────────────
+  function todayIST() {
+    var d = new Date(Date.now() + (330 + new Date().getTimezoneOffset()) * 60000);
+    return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+  }
+  function parseISO(s) { var p = s.split("-"); return new Date(+p[0], +p[1] - 1, +p[2]); }
+  var DOW = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  var MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  function shortDate(s) { var d = parseISO(s); return '<span class="dow">' + DOW[d.getDay()] + "</span>" + d.getDate() + " " + MON[d.getMonth()]; }
+  function longDate(s) { var d = parseISO(s); return DOW[d.getDay()] + ", " + d.getDate() + " " + MON[d.getMonth()] + " " + d.getFullYear(); }
+
+  // Today if it has a list, otherwise the next date that does (holidays,
+  // weekends), otherwise the latest one we have.
+  function defaultDate(dates) {
+    var t = todayIST();
+    for (var i = 0; i < dates.length; i++) if (dates[i] >= t) return dates[i];
+    return dates[dates.length - 1];
+  }
+
+  function renderDates() {
+    var dates = Object.keys(state.index.dates).sort();
+    var t = todayIST();
+    // Chips for the last few days with lists and everything ahead; the rest
+    // of the archive goes in a dropdown so the row stays one line on desktop.
+    var past = dates.filter(function (d) { return d < t; });
+    var recent = past.slice(-3).concat(dates.filter(function (d) { return d >= t; }));
+    var older = past.slice(0, -3);
+    var html = recent.map(function (d) {
+      return '<button class="chip" type="button" data-date="' + d + '" aria-pressed="' + (d === state.date) + '">' + shortDate(d) + "</button>";
+    }).join("");
+    if (older.length) {
+      html += '<select class="older" id="older" aria-label="Earlier dates"><option value="">Earlier…</option>' +
+        older.slice().reverse().map(function (d) {
+          return '<option value="' + d + '"' + (d === state.date ? " selected" : "") + ">" + esc(longDate(d)) + "</option>";
+        }).join("") + "</select>";
+    }
+    $("dates").innerHTML = html;
+    var o = $("older");
+    if (o) o.onchange = function () { if (o.value) selectDate(o.value); };
+  }
+
+  $("dates").addEventListener("click", function (e) {
+    var b = e.target.closest("[data-date]");
+    if (b) selectDate(b.dataset.date);
+  });
+
+  // ── Courts ────────────────────────────────────────────────────────────
+  function short(c) { return SHORT[c.key] || c.court; }
+
+  // One entry per court. Within a court the day's lists run supplementary
+  // first (in order), then the main list — the order the Tribunal takes them up.
+  function groupCourts(day) {
+    var groups = {}, lists = {};
+    day.lists.forEach(function (l) { lists[l.name] = l; });
+    day.benches.forEach(function (b, i) {
+      var l = lists[b.list] || {};
+      var k = b.ckey;
+      if (!groups[k]) groups[k] = { key: k, court: b.court, order: l.order == null ? 9 : l.order, benches: [] };
+      groups[k].benches.push({ i: i, kind: l.kind || "main", seq: l.seq || 0 });
+    });
+    var list = Object.keys(groups).map(function (k) {
+      var g = groups[k];
+      g.benches.sort(function (a, b) {
+        return (a.kind === "supp" ? 0 : 1) - (b.kind === "supp" ? 0 : 1) || a.seq - b.seq;
+      });
+      g.benches = g.benches.map(function (x) { return x.i; });
+      return g;
+    });
+    list.sort(function (a, b) { return a.order - b.order; });
+    return list;
+  }
+
+  function renderPicker() {
+    var courts = state.day.courts;
+    $("pickerGroups").innerHTML = '<div class="pills">' + courts.map(function (c) {
+      return '<button class="pill" type="button" data-court="' + esc(c.key) + '" aria-pressed="' + (c.key === state.court) + '" title="' + esc(c.court) + '">' + esc(short(c)) + "</button>";
+    }).join("") + "</div>";
+    $("pickerSelect").innerHTML = courts.map(function (c) {
+      return '<option value="' + esc(c.key) + '"' + (c.key === state.court ? " selected" : "") + ">" + esc(c.court) + "</option>";
+    }).join("");
+    $("pickerRow").hidden = false;
+  }
+
+  $("pickerGroups").addEventListener("click", function (e) {
+    var b = e.target.closest("[data-court]");
+    if (b) selectCourt(b.dataset.court);
+  });
+  $("pickerSelect").addEventListener("change", function () { selectCourt(this.value); });
+
+  // ── Search ────────────────────────────────────────────────────────────
+  function norm(s) { return String(s || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim(); }
+  function tokens(q) { return norm(q).split(" ").filter(Boolean); }
+
+  function indexDay(day) {
+    day.flat = [];
+    day.benches.forEach(function (b, bi) {
+      b.sections.forEach(function (s) {
+        s.items.forEach(function (it) {
+          it._hay = " " + norm([it.n, it.c, it.p, it.r, it.pa, it.ra, (it.x || []).join(" ")].join(" ")) + " ";
+          day.flat.push({ it: it, bi: bi, sec: s.t });
+        });
+      });
+    });
+  }
+
+  function search(day, q) {
+    var tk = tokens(q);
+    if (!tk.length) return [];
+    var exactNo = /^\d+(\.\d+)?$/.test(q.trim()) ? q.trim() : null;
+    var hits = day.flat.filter(function (f) {
+      for (var i = 0; i < tk.length; i++) if (f.it._hay.indexOf(tk[i]) < 0) return false;
+      return true;
+    });
+    if (exactNo) {
+      // A bare number is usually an item number — show those first.
+      hits.sort(function (a, b) { return (b.it.n === exactNo) - (a.it.n === exactNo); });
+    }
+    return hits;
+  }
+
+  function highlighter(q) {
+    var tk = tokens(q).filter(function (t) { return t.length > 1 || /\d/.test(t); });
+    if (!tk.length) return esc;
+    var re = new RegExp("(" + tk.map(function (t) { return t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }).join("|") + ")", "gi");
+    return function (s) { return esc(s).replace(re, "<mark>$1</mark>"); };
+  }
+
+  var qTimer;
+  $("q").addEventListener("input", function () {
+    clearTimeout(qTimer);
+    var v = this.value;
+    $("qclear").hidden = !v;
+    qTimer = setTimeout(function () { state.q = v.trim(); writeHash(); render(); }, 140);
+  });
+  $("qclear").addEventListener("click", function () {
+    $("q").value = ""; $("qclear").hidden = true; state.q = ""; writeHash(); render(); $("q").focus();
+  });
+
+  // ── Rendering ─────────────────────────────────────────────────────────
+  function listOf(b) {
+    var l = state.day.lists.filter(function (x) { return x.name === b.list; })[0] || {};
+    return l;
+  }
+  function listBadge(b) {
+    var l = listOf(b);
+    return '<small' + (l.kind === "supp" ? "" : ' class="main"') + ">" + esc(l.label || "Cause List") + "</small>";
+  }
+
+  function itemHTML(it, hl) {
+    var notes = (it.x || []).map(function (x) { return "<span>" + hl(x) + "</span>"; }).join("");
+    return '<div class="item" data-n="' + esc(it.n) + '">' +
+      '<div class="no">' + esc(it.n) + "</div>" +
+      '<div class="case">' + hl(it.c) + "</div>" +
+      '<div class="parties"><div class="pty">' + hl(it.p) + "</div>" +
+        (it.r ? '<div class="vs">versus</div><div class="pty">' + hl(it.r) + "</div>" : "") + "</div>" +
+      moreHTML(it) +
+      '<div class="advs">' +
+        (it.pa ? '<div class="pa"><span class="lbl">For appellant</span>' + hl(it.pa) + "</div>" : "") +
+        (it.ra ? '<div class="ra"><span class="lbl">For respondent</span>' + hl(it.ra) + "</div>" : "") +
+      "</div>" +
+      (notes ? '<div class="xnotes">' + notes + "</div>" : "") +
+      "</div>";
+  }
+
+  // On phones the advocates and notes fold away behind this button (CSS hides
+  // it on wider screens, where they sit in their own column).
+  function moreHTML(it) {
+    var parts = [];
+    if (it.pa || it.ra) parts.push("Counsel");
+    if ((it.x || []).length) parts.push("Notes");
+    if (!parts.length) return "";
+    return '<div class="more-row"><button class="more" type="button" aria-expanded="false">' + parts.join(" · ") +
+      ' <span class="car">▾</span></button></div>';
+  }
+
+  // Open any folded matter whose hidden part holds a search match.
+  function openMatches(root) {
+    var items = root.querySelectorAll(".item");
+    for (var i = 0; i < items.length; i++) {
+      if (items[i].querySelector(".advs mark, .xnotes mark")) {
+        items[i].classList.add("open");
+        var b = items[i].querySelector(".more");
+        if (b) b.setAttribute("aria-expanded", "true");
+      }
+    }
+  }
+
+  function benchHeadHTML(b, extraSide) {
+    return '<div class="bench-head"><div>' +
+        '<div class="bench-court">' + esc(b.court) + listBadge(b) + "</div>" +
+        (b.judges ? '<div class="judges"><div>' + esc(b.judges.replace(/^In the Court of\s*/i, "")) + "</div></div>" : "") +
+      "</div>" +
+      '<div class="bench-side">' +
+        (b.time ? '<div class="time">' + esc(b.time) + "</div>" : "") +
+        (b.vc ? '<a href="' + esc(b.vc) + '" target="_blank" rel="noopener">Join VC ↗</a>' : "") +
+        (extraSide || "") +
+      "</div></div>" +
+      (b.notes && b.notes.length ? '<details class="notes"><summary>Court notes (' + b.notes.length + ")</summary><ul>" +
+        b.notes.map(function (n) { return "<li>" + esc(n) + "</li>"; }).join("") + "</ul></details>" : "");
+  }
+
+  function sectionTitle(t) { return t || "Matters"; }
+
+  function renderBenches(list) {
+    var day = state.day;
+    return list.map(function (bi) {
+      var b = day.benches[bi];
+      return '<section class="bench">' + benchHeadHTML(b) +
+        b.sections.map(function (s) {
+          return '<div class="section-title">' + esc(sectionTitle(s.t)) + '<span class="count">' + s.items.length + "</span></div>" +
+            s.items.map(function (it) { return itemHTML(it, esc); }).join("");
+        }).join("") + "</section>";
+    }).join("");
+  }
+
+  function renderCourt() {
+    var day = state.day;
+    var g = day.courts.filter(function (c) { return c.key === state.court; })[0] || day.courts[0];
+    if (!g) { $("out").innerHTML = '<div class="empty"><strong>No courts in this list.</strong></div>'; return; }
+    state.court = g.key;
+    $("out").innerHTML = renderBenches(g.benches);
+  }
+
+  function renderSearch() {
+    var day = state.day;
+    var hits = search(day, state.q);
+    var hl = highlighter(state.q);
+    if (!hits.length) {
+      $("out").innerHTML = '<div class="empty"><strong>Nothing matches “' + esc(state.q) + '” on ' + esc(longDate(state.date)) + ".</strong>Try fewer words, just the case number, or another date.</div>";
+      return;
+    }
+    var shown = hits.slice(0, MAX_RESULTS);
+    // Group consecutive hits by list so each court header appears once.
+    var html = "", cur = -1;
+    shown.forEach(function (h) {
+      if (h.bi !== cur) {
+        if (cur !== -1) html += "</section>";
+        cur = h.bi;
+        var b = day.benches[h.bi];
+        html += '<section class="bench">' + benchHeadHTML(b, '<button class="court-link" type="button" data-open="' + esc(b.ckey) + '">Open full court list →</button>');
+      }
+      html += itemHTML(h.it, hl);
+    });
+    html += "</section>";
+    var more = hits.length > MAX_RESULTS ? " Showing the first " + MAX_RESULTS + " — add another word to narrow it down." : "";
+    $("out").innerHTML = '<p class="hint" style="margin:0 0 10px;">' + hits.length + " match" + (hits.length === 1 ? "" : "es") + " on " + esc(longDate(state.date)) + "." + more + "</p>" + html;
+    openMatches($("out"));
+  }
+
+  $("out").addEventListener("click", function (e) {
+    var more = e.target.closest(".more");
+    if (more) {
+      var open = more.closest(".item").classList.toggle("open");
+      more.setAttribute("aria-expanded", String(open));
+      return;
+    }
+    var b = e.target.closest("[data-open]");
+    if (!b) return;
+    state.q = ""; $("q").value = ""; $("qclear").hidden = true;
+    selectCourt(b.dataset.open);
+    window.scrollTo({ top: $("pickerRow").getBoundingClientRect().top + window.scrollY - 70 });
+  });
+
+  function renderSources() {
+    var day = state.day;
+    $("sources").innerHTML = "<span>Official PDFs:</span>" + day.lists.map(function (l) {
+      return '<a href="' + esc(l.url) + '" target="_blank" rel="noopener" title="Published ' + esc(l.published || "") + '">' + esc(l.court) + " — " + esc(l.label) + "</a>";
+    }).join("");
+    $("meta").innerHTML = "<strong>" + esc(longDate(state.date)) + "</strong><br>" +
+      day.lists.length + " lists · " + day.flat.length + " items<br>" +
+      "Checked " + esc(day.fetched || "");
+  }
+
+  function render() {
+    if (!state.day) return;
+    $("qhint").hidden = !!state.q;
+    var pg = $("pickerGroups").querySelectorAll(".pill");
+    for (var i = 0; i < pg.length; i++) pg[i].setAttribute("aria-pressed", String(!state.q && pg[i].dataset.court === state.court));
+    $("pickerSelect").value = state.court || "";
+    if (state.q) renderSearch(); else renderCourt();
+  }
+
+  // ── State & navigation ────────────────────────────────────────────────
+  function readHash() {
+    var h = {};
+    location.hash.replace(/^#/, "").split("&").forEach(function (kv) {
+      var p = kv.split("=");
+      if (p[0]) h[decodeURIComponent(p[0])] = decodeURIComponent(p.slice(1).join("=") || "");
+    });
+    return h;
+  }
+  function writeHash() {
+    var parts = [];
+    if (state.date) parts.push("d=" + state.date);
+    if (state.court) parts.push("c=" + encodeURIComponent(state.court));
+    if (state.q) parts.push("q=" + encodeURIComponent(state.q));
+    history.replaceState(null, "", "#" + parts.join("&"));
+  }
+
+  function selectCourt(key) {
+    state.court = key;
+    writeHash();
+    render();
+  }
+
+  function selectDate(date) {
+    state.date = date;
+    renderDates();
+    $("out").innerHTML = '<div class="loading">Loading ' + esc(longDate(date)) + "…</div>";
+    var p = cache[date] || (cache[date] = getJSON(DATA + date + ".json").then(function (day) {
+      indexDay(day);
+      day.courts = groupCourts(day);
+      return day;
+    }));
+    p.then(function (day) {
+      if (state.date !== date) return;
+      state.day = day;
+      // Keep the same court across dates when it sits that day; otherwise
+      // (and on a fresh visit) open the Chairperson's court.
+      var keys = day.courts.map(function (c) { return c.key; });
+      if (keys.indexOf(state.court) < 0) state.court = keys.indexOf(DEFAULT_COURT) >= 0 ? DEFAULT_COURT : keys[0];
+      renderPicker();
+      renderSources();
+      writeHash();
+      render();
+    }).catch(function (err) {
+      delete cache[date];
+      showError("Could not load the list for " + longDate(date) + ".", err);
+    });
+  }
+
+  function showError(title, err) {
+    $("out").innerHTML = '<div class="error"><strong>' + esc(title) + "</strong>" +
+      (location.protocol === "file:" ? "Open this page through a local web server (for example <code>python3 -m http.server</code>) — browsers block <code>fetch()</code> on file:// pages." : esc(err && err.message || "")) +
+      ' You can still read the <a href="' + OFFICIAL + '" target="_blank" rel="noopener">official cause list</a>.</div>';
+  }
+
+  getJSON(DATA + "index.json").then(function (index) {
+    state.index = index;
+    var dates = Object.keys(index.dates).sort();
+    if (!dates.length) {
+      $("out").innerHTML = '<div class="empty"><strong>No cause lists yet.</strong>The next check will pick up newly published lists.</div>';
+      return;
+    }
+    var h = readHash();
+    if (h.c) state.court = h.c;
+    if (h.q) { state.q = h.q; $("q").value = h.q; $("qclear").hidden = false; }
+    selectDate(h.d && index.dates[h.d] ? h.d : defaultDate(dates));
+  }).catch(function (err) { showError("Could not load the cause lists.", err); });
+})();
+</script>
+</body>
+</html>

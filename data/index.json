@@ -1,0 +1,3725 @@
+{
+ "dates": {
+  "2026-09-03": {
+   "files": {
+    "IV-supp-2": {
+     "etag": "",
+     "modified": "Thu, 03 Sep 2026 08:29:12 GMT",
+     "sha": "fa9af381904c4f63",
+     "bytes": 473798,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_%282%29_IV_03.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "supp",
+      "seq": 2
+     },
+     "desc": "Supplementary Cause List (2) for 03.09.2026 - Court-IV",
+     "published": "Thu, 03 Sep 2026 08:29:12 GMT"
+    },
+    "reg-main": {
+     "etag": "",
+     "modified": "Wed, 02 Sep 2026 13:02:00 GMT",
+     "sha": "83dc10b4ca13e6bb",
+     "bytes": 12316,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Registrar%20Court_03.09.2026.pdf",
+     "info": {
+      "ckey": "reg",
+      "court": "Registrar Court",
+      "order": 4,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 03.09.2026 - Registrar Court",
+     "published": "Wed, 02 Sep 2026 13:02:00 GMT"
+    },
+    "IV-supp": {
+     "etag": "",
+     "modified": "Wed, 02 Sep 2026 13:01:43 GMT",
+     "sha": "19e2a3665fd52134",
+     "bytes": 306751,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_IV_03.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 03.09.2026 - Court-IV",
+     "published": "Wed, 02 Sep 2026 13:01:43 GMT"
+    },
+    "II-supp": {
+     "etag": "",
+     "modified": "Wed, 02 Sep 2026 13:01:33 GMT",
+     "sha": "971aba1204135e36",
+     "bytes": 298487,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_II_03.09.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 03.09.2026 - Court-II",
+     "published": "Wed, 02 Sep 2026 13:01:33 GMT"
+    },
+    "ch-supp": {
+     "etag": "",
+     "modified": "Wed, 02 Sep 2026 13:01:19 GMT",
+     "sha": "0ba581552129efd9",
+     "bytes": 303215,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_ch_03.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 03.09.2026 - Court of Chairperson",
+     "published": "Wed, 02 Sep 2026 13:01:19 GMT"
+    },
+    "ch-main": {
+     "etag": "",
+     "modified": "Tue, 01 Sep 2026 14:13:00 GMT",
+     "sha": "27c2dc0132bce925",
+     "bytes": 592279,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_ch_03.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 03.09.2026 - Court of Chairperson",
+     "published": "Tue, 01 Sep 2026 14:13:00 GMT"
+    },
+    "IV-main": {
+     "etag": "",
+     "modified": "Tue, 01 Sep 2026 14:09:27 GMT",
+     "sha": "7abdf4785bdd2b4c",
+     "bytes": 592185,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_IV_03.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 03.09.2026 - Court-IV",
+     "published": "Tue, 01 Sep 2026 14:09:27 GMT"
+    },
+    "II-main": {
+     "etag": "",
+     "modified": "Tue, 01 Sep 2026 14:09:14 GMT",
+     "sha": "d4dd3727152cb363",
+     "bytes": 404872,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_II_03.09.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 03.09.2026 - Court-II",
+     "published": "Tue, 01 Sep 2026 14:09:14 GMT"
+    },
+    "chennai-main": {
+     "etag": "",
+     "modified": "Tue, 01 Sep 2026 12:59:22 GMT",
+     "sha": "3df6dca65b206f48",
+     "bytes": 380798,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/03.09.2026.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 03.09.2026- Chennai Bench",
+     "published": "Tue, 01 Sep 2026 12:59:22 GMT"
+    }
+   },
+   "items": 226,
+   "fetched": "2026-10-13 12:05 IST"
+  },
+  "2026-09-07": {
+   "files": {
+    "ch-supp-2": {
+     "etag": "",
+     "modified": "Sat, 05 Sep 2026 07:47:24 GMT",
+     "sha": "a7ec82dbe37ae70a",
+     "bytes": 295750,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_%282%29_ch_07.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "supp",
+      "seq": 2
+     },
+     "desc": "Supplementary Cause List (2) for 07.09.2026 - Court of Chairperson",
+     "published": "Sat, 05 Sep 2026 07:47:24 GMT"
+    },
+    "reg-main": {
+     "etag": "",
+     "modified": "Sat, 05 Sep 2026 07:43:55 GMT",
+     "sha": "4cf6004551a694fd",
+     "bytes": 14446,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Registrar%20Court_07.09.2026.pdf",
+     "info": {
+      "ckey": "reg",
+      "court": "Registrar Court",
+      "order": 4,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 07.09.2026- Registrar Court",
+     "published": "Sat, 05 Sep 2026 07:43:55 GMT"
+    },
+    "IV-supp": {
+     "etag": "",
+     "modified": "Sat, 05 Sep 2026 07:43:03 GMT",
+     "sha": "f9ecc17055148a64",
+     "bytes": 294760,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_IV_07.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 07.09.2026 - Court-IV",
+     "published": "Sat, 05 Sep 2026 07:43:03 GMT"
+    },
+    "ch-supp": {
+     "etag": "",
+     "modified": "Fri, 04 Sep 2026 14:11:59 GMT",
+     "sha": "d49f137811e3ea0e",
+     "bytes": 287095,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_ch_07.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 07.09.2026 - Court of Chairperson",
+     "published": "Fri, 04 Sep 2026 14:11:59 GMT"
+    },
+    "IV-main": {
+     "etag": "",
+     "modified": "Thu, 03 Sep 2026 15:52:30 GMT",
+     "sha": "2caa9d251b996f81",
+     "bytes": 507887,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_IV_07.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 07.09.2026 - Court-IV",
+     "published": "Thu, 03 Sep 2026 15:52:30 GMT"
+    },
+    "II-main": {
+     "etag": "",
+     "modified": "Thu, 03 Sep 2026 15:52:34 GMT",
+     "sha": "02adeef24b363ada",
+     "bytes": 411535,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_II_07.09.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 07.09.2026 - Court-II",
+     "published": "Thu, 03 Sep 2026 15:52:34 GMT"
+    },
+    "ch-main": {
+     "etag": "",
+     "modified": "Thu, 03 Sep 2026 15:59:00 GMT",
+     "sha": "448b7dd8d39ef9a5",
+     "bytes": 596791,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_ch_07.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 07.09.2026 - Court of Chairperson",
+     "published": "Thu, 03 Sep 2026 15:59:00 GMT"
+    },
+    "chennai-main": {
+     "etag": "",
+     "modified": "Thu, 03 Sep 2026 12:03:05 GMT",
+     "sha": "05ac68d73279aa55",
+     "bytes": 376292,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/07.09.2026_0.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 07.09.2026- Chennai Bench",
+     "published": "Thu, 03 Sep 2026 12:03:05 GMT"
+    }
+   },
+   "items": 222,
+   "fetched": "2026-10-13 12:05 IST"
+  },
+  "2026-09-08": {
+   "files": {
+    "reg-main": {
+     "etag": "",
+     "modified": "Mon, 07 Sep 2026 13:38:23 GMT",
+     "sha": "bfb1b4c12ecd07aa",
+     "bytes": 15594,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Registrar%20Court_08.09.2026.pdf",
+     "info": {
+      "ckey": "reg",
+      "court": "Registrar Court",
+      "order": 4,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 08.09.2026- Registrar Court",
+     "published": "Mon, 07 Sep 2026 13:38:23 GMT"
+    },
+    "ch-supp": {
+     "etag": "",
+     "modified": "Mon, 07 Sep 2026 13:37:50 GMT",
+     "sha": "a005f5dd6d3eed2a",
+     "bytes": 305734,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_ch_08.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 08.09.2026 - Court of Chairperson",
+     "published": "Mon, 07 Sep 2026 13:37:50 GMT"
+    },
+    "II-supp": {
+     "etag": "",
+     "modified": "Mon, 07 Sep 2026 13:37:31 GMT",
+     "sha": "6cb6b34ae67ffa1c",
+     "bytes": 303429,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_II_08.09.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 08.09.2026 - Court-II",
+     "published": "Mon, 07 Sep 2026 13:37:31 GMT"
+    },
+    "IV-supp": {
+     "etag": "",
+     "modified": "Mon, 07 Sep 2026 13:37:09 GMT",
+     "sha": "542c7787be3ee55a",
+     "bytes": 317794,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_IV_08.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 08.09.2026 - Court-IV",
+     "published": "Mon, 07 Sep 2026 13:37:09 GMT"
+    },
+    "chennai-supp": {
+     "etag": "",
+     "modified": "Mon, 07 Sep 2026 13:35:28 GMT",
+     "sha": "715591d3e077004c",
+     "bytes": 158958,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/08.09.2026%20Suppl.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 08.09.2026 - Chennai Bench",
+     "published": "Mon, 07 Sep 2026 13:35:28 GMT"
+    },
+    "chennai-main": {
+     "etag": "",
+     "modified": "Sat, 05 Sep 2026 07:56:33 GMT",
+     "sha": "fbb025328d4d432c",
+     "bytes": 369334,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/08.09.2026.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 08.09.2026 - Chennai Bench",
+     "published": "Sat, 05 Sep 2026 07:56:33 GMT"
+    },
+    "IV-main": {
+     "etag": "",
+     "modified": "Thu, 03 Sep 2026 15:52:09 GMT",
+     "sha": "03f6c97b5f0ff429",
+     "bytes": 393813,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_IV_08.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 08.09.2026 - Court-IV",
+     "published": "Thu, 03 Sep 2026 15:52:09 GMT"
+    },
+    "II-main": {
+     "etag": "",
+     "modified": "Thu, 03 Sep 2026 15:52:05 GMT",
+     "sha": "70fe2af51334dd91",
+     "bytes": 400747,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_II_08.09.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 08.09.2026 - Court-II",
+     "published": "Thu, 03 Sep 2026 15:52:05 GMT"
+    },
+    "ch-main": {
+     "etag": "",
+     "modified": "Thu, 03 Sep 2026 15:52:00 GMT",
+     "sha": "dc98264a08cb4c67",
+     "bytes": 418095,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_ch_08.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 08.09.2026 - Court of Chairperson",
+     "published": "Thu, 03 Sep 2026 15:52:00 GMT"
+    }
+   },
+   "items": 245,
+   "fetched": "2026-10-13 12:05 IST"
+  },
+  "2026-09-09": {
+   "files": {
+    "chennai-supp-2": {
+     "etag": "",
+     "modified": "Wed, 09 Sep 2026 09:17:57 GMT",
+     "sha": "06ca29b6b787b415",
+     "bytes": 165027,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/09.09.2026%20Suppl%20%282%29.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "supp",
+      "seq": 2
+     },
+     "desc": "Supplementary Cause List (II) for 09.09.2026 - Chennai Bench",
+     "published": "Wed, 09 Sep 2026 09:17:57 GMT"
+    },
+    "II-supp-2": {
+     "etag": "",
+     "modified": "Tue, 08 Sep 2026 14:11:03 GMT",
+     "sha": "b7db53f84e3fb835",
+     "bytes": 292139,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_%282%29_II_09.09.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "supp",
+      "seq": 2
+     },
+     "desc": "Supplementary Cause List (2) for 09.09.2026 - Court-II",
+     "published": "Tue, 08 Sep 2026 14:11:03 GMT"
+    },
+    "reg-main": {
+     "etag": "",
+     "modified": "Tue, 08 Sep 2026 12:56:50 GMT",
+     "sha": "0e1dd4539ad5bce4",
+     "bytes": 13540,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Registrar%20Court_09.09.2026.pdf",
+     "info": {
+      "ckey": "reg",
+      "court": "Registrar Court",
+      "order": 4,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 09.09.2026 - Registrar Court",
+     "published": "Tue, 08 Sep 2026 12:56:50 GMT"
+    },
+    "IV-supp": {
+     "etag": "",
+     "modified": "Tue, 08 Sep 2026 12:56:34 GMT",
+     "sha": "e755b8d979e03461",
+     "bytes": 438289,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_IV_09.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 09.09.2026 - Court-IV",
+     "published": "Tue, 08 Sep 2026 12:56:34 GMT"
+    },
+    "II-supp": {
+     "etag": "",
+     "modified": "Tue, 08 Sep 2026 12:56:23 GMT",
+     "sha": "449d0b6f16cf9b2c",
+     "bytes": 310613,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_II_09.09.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 09.09.2026 - Court-II",
+     "published": "Tue, 08 Sep 2026 12:56:23 GMT"
+    },
+    "ch-supp": {
+     "etag": "",
+     "modified": "Tue, 08 Sep 2026 12:56:03 GMT",
+     "sha": "3b9629f9207d6dc0",
+     "bytes": 313982,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_ch_09.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 09.09.2026 - Court of Chairperson",
+     "published": "Tue, 08 Sep 2026 12:56:03 GMT"
+    },
+    "chennai-supp": {
+     "etag": "",
+     "modified": "Tue, 08 Sep 2026 12:47:31 GMT",
+     "sha": "a4c1d56131ef8bcd",
+     "bytes": 172039,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/09.09.2026%20Suppl.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 09.09.2026 - Chennai Bench",
+     "published": "Tue, 08 Sep 2026 12:47:31 GMT"
+    },
+    "chennai-main": {
+     "etag": "",
+     "modified": "Mon, 07 Sep 2026 13:49:21 GMT",
+     "sha": "b4090e36c41705de",
+     "bytes": 386606,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/09.09.2026.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 09.09.2026 - Chennai Bench",
+     "published": "Mon, 07 Sep 2026 13:49:21 GMT"
+    },
+    "IV-main": {
+     "etag": "",
+     "modified": "Thu, 03 Sep 2026 15:52:24 GMT",
+     "sha": "fe7a41cab03ab1cf",
+     "bytes": 558319,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_IV_09.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 09.09.2026 - Court-IV",
+     "published": "Thu, 03 Sep 2026 15:52:24 GMT"
+    },
+    "II-main": {
+     "etag": "",
+     "modified": "Thu, 03 Sep 2026 15:52:19 GMT",
+     "sha": "1ba36d023376629f",
+     "bytes": 408564,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_II_09.09.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 09.09.2026 - Court-II",
+     "published": "Thu, 03 Sep 2026 15:52:19 GMT"
+    },
+    "ch-main": {
+     "etag": "",
+     "modified": "Thu, 03 Sep 2026 15:52:15 GMT",
+     "sha": "d6ae67559da030b8",
+     "bytes": 508886,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_ch_09.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 09.09.2026 - Court of Chairperson",
+     "published": "Thu, 03 Sep 2026 15:52:15 GMT"
+    }
+   },
+   "items": 242,
+   "fetched": "2026-10-13 12:05 IST"
+  },
+  "2026-09-10": {
+   "files": {
+    "ch-supp": {
+     "etag": "",
+     "modified": "Wed, 09 Sep 2026 13:40:10 GMT",
+     "sha": "b1ef2401d54b3244",
+     "bytes": 304847,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_ch_10.09.2026_0.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 10.09.2026 - Court of Chairperson",
+     "published": "Wed, 09 Sep 2026 13:40:10 GMT"
+    },
+    "reg-main": {
+     "etag": "",
+     "modified": "Wed, 09 Sep 2026 13:36:08 GMT",
+     "sha": "4193ef239052f5b8",
+     "bytes": 118558,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Registrar%20Court_10.09.2026.pdf",
+     "info": {
+      "ckey": "reg",
+      "court": "Registrar Court",
+      "order": 4,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 10.09.2026 - Registrar Court",
+     "published": "Wed, 09 Sep 2026 13:36:08 GMT"
+    },
+    "IV-supp": {
+     "etag": "",
+     "modified": "Wed, 09 Sep 2026 13:35:39 GMT",
+     "sha": "2952c8634a793d30",
+     "bytes": 431522,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_IV_10.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 10.09.2026 - Court-IV",
+     "published": "Wed, 09 Sep 2026 13:35:39 GMT"
+    },
+    "II-supp": {
+     "etag": "",
+     "modified": "Wed, 09 Sep 2026 13:35:29 GMT",
+     "sha": "449fe16177aaf85b",
+     "bytes": 400235,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_II_10.09.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 10.09.2026 - Court-II",
+     "published": "Wed, 09 Sep 2026 13:35:29 GMT"
+    },
+    "chennai-supp": {
+     "etag": "",
+     "modified": "Wed, 09 Sep 2026 13:26:07 GMT",
+     "sha": "f991ac85296c1935",
+     "bytes": 176476,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/10.09.2026%20Suppl.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 10.09.2026 - Chennai Bench",
+     "published": "Wed, 09 Sep 2026 13:26:07 GMT"
+    },
+    "IV-main": {
+     "etag": "",
+     "modified": "Tue, 08 Sep 2026 15:23:21 GMT",
+     "sha": "dccf0fbcdace717b",
+     "bytes": 505895,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_IV_10.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 10.09.2026 - Court-IV",
+     "published": "Tue, 08 Sep 2026 15:23:21 GMT"
+    },
+    "II-main": {
+     "etag": "",
+     "modified": "Tue, 08 Sep 2026 15:23:25 GMT",
+     "sha": "84ce3200d94c22ae",
+     "bytes": 471761,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_II_10.09.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 10.09.2026 - Court-II",
+     "published": "Tue, 08 Sep 2026 15:23:25 GMT"
+    },
+    "ch-main": {
+     "etag": "",
+     "modified": "Tue, 08 Sep 2026 15:23:29 GMT",
+     "sha": "89fab3b771fd6fd9",
+     "bytes": 541624,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_ch_10.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 10.09.2026 - Court of Chairperson",
+     "published": "Tue, 08 Sep 2026 15:23:29 GMT"
+    },
+    "chennai-main": {
+     "etag": "",
+     "modified": "Tue, 08 Sep 2026 12:48:38 GMT",
+     "sha": "0eb53589ce35a5f1",
+     "bytes": 397942,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/10.09.2026.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 10.09.2026 - Chennai Bench",
+     "published": "Tue, 08 Sep 2026 12:48:38 GMT"
+    }
+   },
+   "items": 250,
+   "fetched": "2026-10-13 12:05 IST"
+  },
+  "2026-09-11": {
+   "files": {
+    "ch-supp": {
+     "etag": "",
+     "modified": "Thu, 10 Sep 2026 13:45:10 GMT",
+     "sha": "88053d48d4172e79",
+     "bytes": 402468,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_ch_11.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 11.09.2026 - Court of Chairperson",
+     "published": "Thu, 10 Sep 2026 13:45:10 GMT"
+    },
+    "IV-supp": {
+     "etag": "",
+     "modified": "Thu, 10 Sep 2026 13:44:50 GMT",
+     "sha": "ae9c4269b639c833",
+     "bytes": 293050,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_IV_11.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 11.09.2026 - Court-IV",
+     "published": "Thu, 10 Sep 2026 13:44:50 GMT"
+    },
+    "IV-main": {
+     "etag": "",
+     "modified": "Tue, 08 Sep 2026 14:58:48 GMT",
+     "sha": "d383d5470de92c0d",
+     "bytes": 659669,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_IV_11.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 11.09.2026 - Court-IV",
+     "published": "Tue, 08 Sep 2026 14:58:48 GMT"
+    },
+    "II-main": {
+     "etag": "",
+     "modified": "Tue, 08 Sep 2026 14:58:43 GMT",
+     "sha": "bd52a369ca8681f8",
+     "bytes": 406104,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_II_11.09.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 11.09.2026 - Court-II",
+     "published": "Tue, 08 Sep 2026 14:58:43 GMT"
+    },
+    "ch-main": {
+     "etag": "",
+     "modified": "Tue, 08 Sep 2026 14:58:39 GMT",
+     "sha": "d92a2eae5924eb47",
+     "bytes": 525954,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_ch_11.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 11.09.2026 - Court of Chairperson",
+     "published": "Tue, 08 Sep 2026 14:58:39 GMT"
+    }
+   },
+   "items": 146,
+   "fetched": "2026-10-13 12:05 IST"
+  },
+  "2026-09-14": {
+   "files": {
+    "ch-supp": {
+     "etag": "",
+     "modified": "Thu, 10 Sep 2026 16:26:19 GMT",
+     "sha": "a5e7828e06cbb047",
+     "bytes": 297434,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_ch_14.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 14.09.2026 - Court of Chairperson",
+     "published": "Thu, 10 Sep 2026 16:26:19 GMT"
+    },
+    "IV-main": {
+     "etag": "",
+     "modified": "Thu, 10 Sep 2026 16:20:27 GMT",
+     "sha": "878b8449b8f36944",
+     "bytes": 521420,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_IV_14.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 14.09.2026 - Court-IV",
+     "published": "Thu, 10 Sep 2026 16:20:27 GMT"
+    },
+    "II-main": {
+     "etag": "",
+     "modified": "Thu, 10 Sep 2026 16:20:23 GMT",
+     "sha": "27713a4f221e4c73",
+     "bytes": 409262,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_II_14.09.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 14.09.2026 - Court-II",
+     "published": "Thu, 10 Sep 2026 16:20:23 GMT"
+    },
+    "ch-main": {
+     "etag": "",
+     "modified": "Thu, 10 Sep 2026 16:20:15 GMT",
+     "sha": "9852736757795dc3",
+     "bytes": 566669,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_ch_14.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 14.09.2026 - Court of Chairperson",
+     "published": "Thu, 10 Sep 2026 16:20:15 GMT"
+    }
+   },
+   "items": 152,
+   "fetched": "2026-10-13 12:05 IST"
+  },
+  "2026-09-15": {
+   "files": {
+    "IV-supp": {
+     "etag": "",
+     "modified": "Mon, 14 Sep 2026 13:42:25 GMT",
+     "sha": "3269acc1cc287be5",
+     "bytes": 321092,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_IV_15.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 15.09.2026 - Court-IV",
+     "published": "Mon, 14 Sep 2026 13:42:25 GMT"
+    },
+    "II-supp": {
+     "etag": "",
+     "modified": "Mon, 14 Sep 2026 13:41:47 GMT",
+     "sha": "5123eeda6fe2cbd2",
+     "bytes": 413160,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_II_15.09.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 15.09.2026 - Court-II",
+     "published": "Mon, 14 Sep 2026 13:41:47 GMT"
+    },
+    "ch-supp": {
+     "etag": "",
+     "modified": "Mon, 14 Sep 2026 13:41:01 GMT",
+     "sha": "95ae4f2fc66fb1f7",
+     "bytes": 316670,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_ch_15.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 15.09.2026 - Court of Chairperson",
+     "published": "Mon, 14 Sep 2026 13:41:01 GMT"
+    },
+    "reg-main": {
+     "etag": "",
+     "modified": "Mon, 14 Sep 2026 13:40:20 GMT",
+     "sha": "7688d844e278df96",
+     "bytes": 15731,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Registrar%20Court_15.09.2026.pdf",
+     "info": {
+      "ckey": "reg",
+      "court": "Registrar Court",
+      "order": 4,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 15.09.2026 - Registrar Court",
+     "published": "Mon, 14 Sep 2026 13:40:20 GMT"
+    },
+    "chennai-main": {
+     "etag": "",
+     "modified": "Fri, 11 Sep 2026 12:51:45 GMT",
+     "sha": "dce49af064357765",
+     "bytes": 412060,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/15.09.2026.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 15.09.2026 - Chennai Bench",
+     "published": "Fri, 11 Sep 2026 12:51:45 GMT"
+    },
+    "IV-main": {
+     "etag": "",
+     "modified": "Thu, 10 Sep 2026 16:20:41 GMT",
+     "sha": "8cf58876dc577d12",
+     "bytes": 572378,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_IV_15.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 15.09.2026 - Court-IV",
+     "published": "Thu, 10 Sep 2026 16:20:41 GMT"
+    },
+    "II-main": {
+     "etag": "",
+     "modified": "Thu, 10 Sep 2026 16:20:37 GMT",
+     "sha": "f392c1be4a2ecb56",
+     "bytes": 386788,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_II_15.09.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 15.09.2026 - Court-II",
+     "published": "Thu, 10 Sep 2026 16:20:37 GMT"
+    },
+    "ch-main": {
+     "etag": "",
+     "modified": "Thu, 10 Sep 2026 16:20:32 GMT",
+     "sha": "53aa042cb8356567",
+     "bytes": 502593,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_ch_15.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 15.09.2026 - Court of Chairperson",
+     "published": "Thu, 10 Sep 2026 16:20:32 GMT"
+    }
+   },
+   "items": 236,
+   "fetched": "2026-10-13 12:05 IST"
+  },
+  "2026-09-16": {
+   "files": {
+    "reg-main": {
+     "etag": "",
+     "modified": "Tue, 15 Sep 2026 13:51:52 GMT",
+     "sha": "ebf9ebf088a35b1d",
+     "bytes": 12628,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Registrar%20Court_16.09.2026.pdf",
+     "info": {
+      "ckey": "reg",
+      "court": "Registrar Court",
+      "order": 4,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 16.09.2026 - Registrar Court",
+     "published": "Tue, 15 Sep 2026 13:51:52 GMT"
+    },
+    "II-supp": {
+     "etag": "",
+     "modified": "Tue, 15 Sep 2026 13:49:41 GMT",
+     "sha": "332b5ff15c576ba0",
+     "bytes": 293028,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_II_16.09.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 16.09.2026 - Court-II",
+     "published": "Tue, 15 Sep 2026 13:49:41 GMT"
+    },
+    "IV-supp": {
+     "etag": "",
+     "modified": "Tue, 15 Sep 2026 13:50:07 GMT",
+     "sha": "d43091c1a957ee99",
+     "bytes": 334903,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_IV_16.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 16.09.2026 - Court-IV",
+     "published": "Tue, 15 Sep 2026 13:50:07 GMT"
+    },
+    "ch-supp": {
+     "etag": "",
+     "modified": "Tue, 15 Sep 2026 13:49:10 GMT",
+     "sha": "e466b3e4bd823237",
+     "bytes": 301789,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_ch_16.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 16.09.2026 - Court of Chairperson",
+     "published": "Tue, 15 Sep 2026 13:49:10 GMT"
+    },
+    "chennai-main": {
+     "etag": "",
+     "modified": "Fri, 11 Sep 2026 12:55:23 GMT",
+     "sha": "621cce8229efe558",
+     "bytes": 393755,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/16.09.2026.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 16.09.2026 - Chennai Bench",
+     "published": "Fri, 11 Sep 2026 12:55:23 GMT"
+    },
+    "IV-main": {
+     "etag": "",
+     "modified": "Thu, 10 Sep 2026 16:21:00 GMT",
+     "sha": "2de1dde46d3172ce",
+     "bytes": 670759,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_IV_16.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 16.09.2026 - Court-IV",
+     "published": "Thu, 10 Sep 2026 16:21:00 GMT"
+    },
+    "II-main": {
+     "etag": "",
+     "modified": "Thu, 10 Sep 2026 16:20:53 GMT",
+     "sha": "0959d723f6cd4c4b",
+     "bytes": 513262,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_II_16.09.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 16.09.2026 - Court-II",
+     "published": "Thu, 10 Sep 2026 16:20:53 GMT"
+    },
+    "ch-main": {
+     "etag": "",
+     "modified": "Thu, 10 Sep 2026 16:20:46 GMT",
+     "sha": "017d02cf0be23c1a",
+     "bytes": 553231,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_ch_16.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 16.09.2026 - Court of Chairperson",
+     "published": "Thu, 10 Sep 2026 16:20:46 GMT"
+    }
+   },
+   "items": 239,
+   "fetched": "2026-10-13 12:05 IST"
+  },
+  "2026-09-17": {
+   "files": {
+    "reg-main": {
+     "etag": "",
+     "modified": "Wed, 16 Sep 2026 13:28:38 GMT",
+     "sha": "c509e8327223ae4c",
+     "bytes": 9626,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Registrar%20Court_17.09.2026.pdf",
+     "info": {
+      "ckey": "reg",
+      "court": "Registrar Court",
+      "order": 4,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 17.09.2026 - Registrar Court",
+     "published": "Wed, 16 Sep 2026 13:28:38 GMT"
+    },
+    "IV-supp": {
+     "etag": "",
+     "modified": "Wed, 16 Sep 2026 13:28:18 GMT",
+     "sha": "cb7949781ff03d28",
+     "bytes": 322616,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_IV_17.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 17.09.2026 - Court-IV",
+     "published": "Wed, 16 Sep 2026 13:28:18 GMT"
+    },
+    "II-supp": {
+     "etag": "",
+     "modified": "Wed, 16 Sep 2026 13:28:08 GMT",
+     "sha": "cd36e516a12ed686",
+     "bytes": 309110,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_II_17.09.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 17.09.2026 - Court-II",
+     "published": "Wed, 16 Sep 2026 13:28:08 GMT"
+    },
+    "ch-supp": {
+     "etag": "",
+     "modified": "Wed, 16 Sep 2026 13:27:55 GMT",
+     "sha": "92516dfe2cce4c48",
+     "bytes": 414555,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_ch_17.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 17.09.2026 - Court of Chairperson",
+     "published": "Wed, 16 Sep 2026 13:27:55 GMT"
+    },
+    "IV-main": {
+     "etag": "",
+     "modified": "Tue, 15 Sep 2026 15:17:27 GMT",
+     "sha": "02ccd3ec38306a8b",
+     "bytes": 510568,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_IV_17.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 17.09.2026 - Court-IV",
+     "published": "Tue, 15 Sep 2026 15:17:27 GMT"
+    },
+    "II-main": {
+     "etag": "",
+     "modified": "Tue, 15 Sep 2026 15:17:18 GMT",
+     "sha": "ca697379b921e568",
+     "bytes": 400686,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_II_17.09.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 17.09.2026 - Court-II",
+     "published": "Tue, 15 Sep 2026 15:17:18 GMT"
+    },
+    "ch-main": {
+     "etag": "",
+     "modified": "Tue, 15 Sep 2026 15:17:04 GMT",
+     "sha": "9387e11900d7c924",
+     "bytes": 516998,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_ch_17.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 17.09.2026 - Court of Chairperson",
+     "published": "Tue, 15 Sep 2026 15:17:04 GMT"
+    },
+    "chennai-main": {
+     "etag": "",
+     "modified": "Tue, 15 Sep 2026 12:27:10 GMT",
+     "sha": "8c4117ec3ce71107",
+     "bytes": 424361,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/17.09.2026.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 17.09.2026 - Chennai Bench",
+     "published": "Tue, 15 Sep 2026 12:27:10 GMT"
+    }
+   },
+   "items": 256,
+   "fetched": "2026-10-13 12:05 IST"
+  },
+  "2026-09-18": {
+   "files": {
+    "IV-supp-2": {
+     "etag": "",
+     "modified": "Fri, 18 Sep 2026 05:43:59 GMT",
+     "sha": "d89ed73b69a7301c",
+     "bytes": 293347,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_%282%29_IV_18.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "supp",
+      "seq": 2
+     },
+     "desc": "Supplementary Cause List (2) for 18.09.2026 - Court-IV",
+     "published": "Fri, 18 Sep 2026 05:43:59 GMT"
+    },
+    "IV-supp": {
+     "etag": "",
+     "modified": "Thu, 17 Sep 2026 13:40:11 GMT",
+     "sha": "51827bb668b6ae76",
+     "bytes": 309813,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_IV_18.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 18.09.2026 - Court-IV",
+     "published": "Thu, 17 Sep 2026 13:40:11 GMT"
+    },
+    "II-supp": {
+     "etag": "",
+     "modified": "Thu, 17 Sep 2026 13:40:01 GMT",
+     "sha": "ed267bd84bc0f582",
+     "bytes": 453484,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_II_18.09.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 18.09.2026 - Court-II",
+     "published": "Thu, 17 Sep 2026 13:40:01 GMT"
+    },
+    "ch-supp": {
+     "etag": "",
+     "modified": "Thu, 17 Sep 2026 13:39:46 GMT",
+     "sha": "bed3d4a9f14a4949",
+     "bytes": 309840,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_ch_18.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 18.09.2026 - Court of Chairperson",
+     "published": "Thu, 17 Sep 2026 13:39:46 GMT"
+    },
+    "chennai-supp": {
+     "etag": "",
+     "modified": "Thu, 17 Sep 2026 12:46:27 GMT",
+     "sha": "3d3303a303926a88",
+     "bytes": 172744,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/18.09.2026%20Suppl.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 18.09.2026 - Chennai Bench",
+     "published": "Thu, 17 Sep 2026 12:46:27 GMT"
+    },
+    "chennai-main": {
+     "etag": "",
+     "modified": "Wed, 16 Sep 2026 12:32:49 GMT",
+     "sha": "4cb4b4382fe50f0c",
+     "bytes": 373459,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/18.09.2026.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 18.09.2026 - Chennai Bench",
+     "published": "Wed, 16 Sep 2026 12:32:49 GMT"
+    },
+    "IV-main": {
+     "etag": "",
+     "modified": "Tue, 15 Sep 2026 15:18:02 GMT",
+     "sha": "7bc564f251248a58",
+     "bytes": 669257,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_IV_18.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 18.09.2026 - Court-IV",
+     "published": "Tue, 15 Sep 2026 15:18:02 GMT"
+    },
+    "II-main": {
+     "etag": "",
+     "modified": "Tue, 15 Sep 2026 15:17:50 GMT",
+     "sha": "4d7723fcaf96eed3",
+     "bytes": 410566,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_II_18.09.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 18.09.2026 - Court-II",
+     "published": "Tue, 15 Sep 2026 15:17:50 GMT"
+    },
+    "ch-main": {
+     "etag": "",
+     "modified": "Tue, 15 Sep 2026 15:17:39 GMT",
+     "sha": "a1a8676edee12027",
+     "bytes": 384155,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_ch_18.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 18.09.2026 - Court of Chairperson",
+     "published": "Tue, 15 Sep 2026 15:17:39 GMT"
+    }
+   },
+   "items": 231,
+   "fetched": "2026-10-13 12:05 IST"
+  },
+  "2026-09-21": {
+   "files": {
+    "reg-main": {
+     "etag": "",
+     "modified": "Sat, 19 Sep 2026 08:00:05 GMT",
+     "sha": "9cc6f2bfb01f2f37",
+     "bytes": 194335,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Registrar%20Court_21.09.2026.pdf",
+     "info": {
+      "ckey": "reg",
+      "court": "Registrar Court",
+      "order": 4,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 21.09.2026 - Registrar Court",
+     "published": "Sat, 19 Sep 2026 08:00:05 GMT"
+    },
+    "ch-supp": {
+     "etag": "",
+     "modified": "Sat, 19 Sep 2026 07:59:51 GMT",
+     "sha": "11b9ac4ed960172e",
+     "bytes": 314193,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_ch_21.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 21.09.2026 - Court of Chairperson",
+     "published": "Sat, 19 Sep 2026 07:59:51 GMT"
+    },
+    "IV-main": {
+     "etag": "",
+     "modified": "Fri, 18 Sep 2026 15:53:24 GMT",
+     "sha": "f8d2cdcf056375d7",
+     "bytes": 686601,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_IV_21.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 21.09.2026 - Court-IV",
+     "published": "Fri, 18 Sep 2026 15:53:24 GMT"
+    },
+    "II-main": {
+     "etag": "",
+     "modified": "Fri, 18 Sep 2026 15:53:27 GMT",
+     "sha": "d7ac7db01a654d02",
+     "bytes": 528054,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_II_21.09.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 21.09.2026 - Court-II",
+     "published": "Fri, 18 Sep 2026 15:53:27 GMT"
+    },
+    "ch-main": {
+     "etag": "",
+     "modified": "Fri, 18 Sep 2026 15:56:17 GMT",
+     "sha": "d9039963fd346a94",
+     "bytes": 397695,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_ch_21.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 21.09.2026 - Court of Chairperson",
+     "published": "Fri, 18 Sep 2026 15:56:17 GMT"
+    },
+    "chennai-main": {
+     "etag": "",
+     "modified": "Fri, 18 Sep 2026 12:36:40 GMT",
+     "sha": "4a1a954468b66c5a",
+     "bytes": 168863,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/21.09.2026.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 21.09.2026 - Chennai Bench",
+     "published": "Fri, 18 Sep 2026 12:36:40 GMT"
+    }
+   },
+   "items": 218,
+   "fetched": "2026-10-13 12:05 IST"
+  },
+  "2026-09-22": {
+   "files": {
+    "reg-main": {
+     "etag": "",
+     "modified": "Mon, 21 Sep 2026 13:36:27 GMT",
+     "sha": "7060d162b646e06f",
+     "bytes": 12526,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Registrar%20Court_22.09.2026.pdf",
+     "info": {
+      "ckey": "reg",
+      "court": "Registrar Court",
+      "order": 4,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 22.09.2026 - Registrar Court",
+     "published": "Mon, 21 Sep 2026 13:36:27 GMT"
+    },
+    "ch-supp": {
+     "etag": "",
+     "modified": "Mon, 21 Sep 2026 13:35:26 GMT",
+     "sha": "3d2a3b96a0b79e0a",
+     "bytes": 326738,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_ch_22.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 22.09.2026 - Court of Chairperson",
+     "published": "Mon, 21 Sep 2026 13:35:26 GMT"
+    },
+    "IV-supp": {
+     "etag": "",
+     "modified": "Mon, 21 Sep 2026 13:34:34 GMT",
+     "sha": "b27edb6e528a62ca",
+     "bytes": 318875,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_IV_22.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 22.09.2026 - Court-IV",
+     "published": "Mon, 21 Sep 2026 13:34:34 GMT"
+    },
+    "chennai-supp": {
+     "etag": "",
+     "modified": "Mon, 21 Sep 2026 12:55:00 GMT",
+     "sha": "f88f352f2a4a7f45",
+     "bytes": 188772,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/22.09.2026%20Suppl_1.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 22.09.2026 - Chennai Bench",
+     "published": "Mon, 21 Sep 2026 12:55:00 GMT"
+    },
+    "chennai-main": {
+     "etag": "",
+     "modified": "Sat, 19 Sep 2026 08:35:12 GMT",
+     "sha": "31c76af2ebf01c4f",
+     "bytes": 401365,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/22.09.2026_0.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 22.09.2026 - Chennai Bench",
+     "published": "Sat, 19 Sep 2026 08:35:12 GMT"
+    },
+    "IV-main": {
+     "etag": "",
+     "modified": "Fri, 18 Sep 2026 15:53:00 GMT",
+     "sha": "2a6324d008ad002d",
+     "bytes": 499424,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_IV_22.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 22.09.2026 - Court-IV",
+     "published": "Fri, 18 Sep 2026 15:53:00 GMT"
+    },
+    "II-main": {
+     "etag": "",
+     "modified": "Fri, 18 Sep 2026 15:53:12 GMT",
+     "sha": "f56b368e45d2c244",
+     "bytes": 389490,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_II_22.09.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 22.09.2026 - Court-II",
+     "published": "Fri, 18 Sep 2026 15:53:12 GMT"
+    },
+    "ch-main": {
+     "etag": "",
+     "modified": "Fri, 18 Sep 2026 15:53:17 GMT",
+     "sha": "97464b327b8a4cb8",
+     "bytes": 383662,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_ch_22.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 22.09.2026 - Court of Chairperson",
+     "published": "Fri, 18 Sep 2026 15:53:17 GMT"
+    }
+   },
+   "items": 220,
+   "fetched": "2026-10-13 12:05 IST"
+  },
+  "2026-09-23": {
+   "files": {
+    "reg-main": {
+     "etag": "",
+     "modified": "Tue, 22 Sep 2026 13:42:24 GMT",
+     "sha": "c3cec7ce0a5396b2",
+     "bytes": 17217,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Registrar%20Court_23.09.2026.pdf",
+     "info": {
+      "ckey": "reg",
+      "court": "Registrar Court",
+      "order": 4,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 23.09.2026 - Registrar Court",
+     "published": "Tue, 22 Sep 2026 13:42:24 GMT"
+    },
+    "IV-supp": {
+     "etag": "",
+     "modified": "Tue, 22 Sep 2026 13:42:08 GMT",
+     "sha": "cdf5f988aca6a939",
+     "bytes": 597815,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_IV_23.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 23.09.2026 - Court-IV",
+     "published": "Tue, 22 Sep 2026 13:42:08 GMT"
+    },
+    "II-supp": {
+     "etag": "",
+     "modified": "Tue, 22 Sep 2026 13:41:56 GMT",
+     "sha": "586eb3e124db0459",
+     "bytes": 304121,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_II_23.09.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 23.09.2026 - Court-II",
+     "published": "Tue, 22 Sep 2026 13:41:56 GMT"
+    },
+    "ch-supp": {
+     "etag": "",
+     "modified": "Tue, 22 Sep 2026 13:41:37 GMT",
+     "sha": "01a2e1ded80bf750",
+     "bytes": 296892,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_ch_23.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 23.09.2026 - Court of Chairperson",
+     "published": "Tue, 22 Sep 2026 13:41:37 GMT"
+    },
+    "chennai-supp": {
+     "etag": "",
+     "modified": "Tue, 22 Sep 2026 12:53:55 GMT",
+     "sha": "aafff70d1687800b",
+     "bytes": 170462,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/23.09.2026%20Suppl.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 23.09.2026 - Chennai Bench",
+     "published": "Tue, 22 Sep 2026 12:53:55 GMT"
+    },
+    "chennai-main": {
+     "etag": "",
+     "modified": "Mon, 21 Sep 2026 12:42:06 GMT",
+     "sha": "26308b9ae8e0d541",
+     "bytes": 409418,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/23.09.2026.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 23.09.2026 - Chennai Bench",
+     "published": "Mon, 21 Sep 2026 12:42:06 GMT"
+    },
+    "IV-main": {
+     "etag": "",
+     "modified": "Fri, 18 Sep 2026 15:52:45 GMT",
+     "sha": "9bfd5223433629d9",
+     "bytes": 476852,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_IV_23.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 23.09.2026 - Court-IV",
+     "published": "Fri, 18 Sep 2026 15:52:45 GMT"
+    },
+    "II-main": {
+     "etag": "",
+     "modified": "Fri, 18 Sep 2026 15:52:49 GMT",
+     "sha": "bb1f130e7ed65946",
+     "bytes": 504004,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_II_23.09.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 23.09.2026 - Court-II",
+     "published": "Fri, 18 Sep 2026 15:52:49 GMT"
+    },
+    "ch-main": {
+     "etag": "",
+     "modified": "Fri, 18 Sep 2026 15:52:55 GMT",
+     "sha": "d5ea8d166036e587",
+     "bytes": 365359,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_ch_23.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 23.09.2026 - Court of Chairperson",
+     "published": "Fri, 18 Sep 2026 15:52:55 GMT"
+    }
+   },
+   "items": 209,
+   "fetched": "2026-10-13 12:05 IST"
+  },
+  "2026-09-24": {
+   "files": {
+    "chennai-supp": {
+     "etag": "",
+     "modified": "Wed, 23 Sep 2026 13:13:10 GMT",
+     "sha": "acaaf2b44abeb724",
+     "bytes": 164870,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/24.09.2026%20Suppl.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 24.09.2026- Chennai Bench",
+     "published": "Wed, 23 Sep 2026 13:13:10 GMT"
+    },
+    "reg-main": {
+     "etag": "",
+     "modified": "Wed, 23 Sep 2026 12:39:07 GMT",
+     "sha": "9eebddb24d32735a",
+     "bytes": 17411,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Registrar%20Court_24.09.2026.pdf",
+     "info": {
+      "ckey": "reg",
+      "court": "Registrar Court",
+      "order": 4,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 24.09.2026 - Registrar Court",
+     "published": "Wed, 23 Sep 2026 12:39:07 GMT"
+    },
+    "ch-supp": {
+     "etag": "",
+     "modified": "Wed, 23 Sep 2026 12:38:05 GMT",
+     "sha": "56e3b0c3bb0af4af",
+     "bytes": 293631,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_ch_24.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 24.09.2026 - Court of Chairperson",
+     "published": "Wed, 23 Sep 2026 12:38:05 GMT"
+    },
+    "II-supp": {
+     "etag": "",
+     "modified": "Wed, 23 Sep 2026 12:37:33 GMT",
+     "sha": "e648dc1f1a0711fc",
+     "bytes": 302381,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_II_24.09.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 24.09.2026 - Court-II",
+     "published": "Wed, 23 Sep 2026 12:37:33 GMT"
+    },
+    "IV-supp": {
+     "etag": "",
+     "modified": "Wed, 23 Sep 2026 12:36:59 GMT",
+     "sha": "9bc15145128f6aeb",
+     "bytes": 303333,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_IV_24.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 24.09.2026 - Court-IV",
+     "published": "Wed, 23 Sep 2026 12:36:59 GMT"
+    },
+    "IV-main": {
+     "etag": "",
+     "modified": "Tue, 22 Sep 2026 15:11:52 GMT",
+     "sha": "f667c86483e08e95",
+     "bytes": 392662,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_IV_24.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 24.09.2026 - Court-IV",
+     "published": "Tue, 22 Sep 2026 15:11:52 GMT"
+    },
+    "II-main": {
+     "etag": "",
+     "modified": "Tue, 22 Sep 2026 15:11:41 GMT",
+     "sha": "e37a6e5114aa803d",
+     "bytes": 512038,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_II_24.09.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 24.09.2026 - Court-II",
+     "published": "Tue, 22 Sep 2026 15:11:41 GMT"
+    },
+    "ch-main": {
+     "etag": "",
+     "modified": "Tue, 22 Sep 2026 15:11:46 GMT",
+     "sha": "5c43aefe9c784155",
+     "bytes": 409225,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_ch_24.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 24.09.2026 - Court of Chairperson",
+     "published": "Tue, 22 Sep 2026 15:11:46 GMT"
+    },
+    "chennai-main": {
+     "etag": "",
+     "modified": "Tue, 22 Sep 2026 13:01:37 GMT",
+     "sha": "7c986c749793fd02",
+     "bytes": 401573,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/24.09.2026.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 24.09.2026 - Chennai Bench",
+     "published": "Tue, 22 Sep 2026 13:01:37 GMT"
+    }
+   },
+   "items": 234,
+   "fetched": "2026-10-13 12:05 IST"
+  },
+  "2026-09-25": {
+   "files": {
+    "reg-main": {
+     "etag": "",
+     "modified": "Thu, 24 Sep 2026 13:56:30 GMT",
+     "sha": "3435534fad98ae34",
+     "bytes": 12513,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Registrar%20Court_25.09.2026.pdf",
+     "info": {
+      "ckey": "reg",
+      "court": "Registrar Court",
+      "order": 4,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 25.09.2026 - Registrar Court",
+     "published": "Thu, 24 Sep 2026 13:56:30 GMT"
+    },
+    "ch-supp": {
+     "etag": "",
+     "modified": "Thu, 24 Sep 2026 13:55:22 GMT",
+     "sha": "e541d10e9a738384",
+     "bytes": 304992,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_ch_25.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 25.09.2026 - Court of Chairperson",
+     "published": "Thu, 24 Sep 2026 13:55:22 GMT"
+    },
+    "II-supp": {
+     "etag": "",
+     "modified": "Thu, 24 Sep 2026 13:54:21 GMT",
+     "sha": "46f89584ee7866e5",
+     "bytes": 314218,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_II_25.09.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 25.09.2026 - Court-II",
+     "published": "Thu, 24 Sep 2026 13:54:21 GMT"
+    },
+    "IV-supp": {
+     "etag": "",
+     "modified": "Thu, 24 Sep 2026 13:53:33 GMT",
+     "sha": "a7162359b69a8573",
+     "bytes": 309537,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_IV_25.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 25.09.2026 - Court-IV",
+     "published": "Thu, 24 Sep 2026 13:53:33 GMT"
+    },
+    "chennai-supp": {
+     "etag": "",
+     "modified": "Thu, 24 Sep 2026 13:19:28 GMT",
+     "sha": "92c86d1b1ccb1c3b",
+     "bytes": 170264,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/25.09.2026%20Suppl.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 25.09.2026- Chennai Bench",
+     "published": "Thu, 24 Sep 2026 13:19:28 GMT"
+    },
+    "chennai-main": {
+     "etag": "",
+     "modified": "Wed, 23 Sep 2026 13:14:48 GMT",
+     "sha": "0d23190264c78418",
+     "bytes": 401237,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/25.09.2026.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 25.09.2026 - Chennai Bench",
+     "published": "Wed, 23 Sep 2026 13:14:48 GMT"
+    },
+    "IV-main": {
+     "etag": "",
+     "modified": "Tue, 22 Sep 2026 15:12:09 GMT",
+     "sha": "cafcf94dec6caa1a",
+     "bytes": 676162,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_IV_25.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 25.09.2026 - Court-IV",
+     "published": "Tue, 22 Sep 2026 15:12:09 GMT"
+    },
+    "II-main": {
+     "etag": "",
+     "modified": "Tue, 22 Sep 2026 15:12:02 GMT",
+     "sha": "f4fec828419d542b",
+     "bytes": 398211,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_II_25.09.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 25.09.2026 - Court-II",
+     "published": "Tue, 22 Sep 2026 15:12:02 GMT"
+    },
+    "ch-main": {
+     "etag": "",
+     "modified": "Tue, 22 Sep 2026 15:11:58 GMT",
+     "sha": "d16b41d44b5bbf82",
+     "bytes": 502124,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_ch_25.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 25.09.2026 - Court of Chairperson",
+     "published": "Tue, 22 Sep 2026 15:11:58 GMT"
+    }
+   },
+   "items": 220,
+   "fetched": "2026-10-13 12:05 IST"
+  },
+  "2026-09-28": {
+   "files": {
+    "reg-main": {
+     "etag": "",
+     "modified": "Fri, 25 Sep 2026 17:00:28 GMT",
+     "sha": "0a9939bc72910fec",
+     "bytes": 6812,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Registrar%20Court_28.09.2026.pdf",
+     "info": {
+      "ckey": "reg",
+      "court": "Registrar Court",
+      "order": 4,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 28.09.2026 - Registrar Court",
+     "published": "Fri, 25 Sep 2026 17:00:28 GMT"
+    },
+    "II-supp": {
+     "etag": "",
+     "modified": "Fri, 25 Sep 2026 17:00:11 GMT",
+     "sha": "5010965a11cdcdb3",
+     "bytes": 293308,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_II_28.09.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 28.09.2026 - Court-II",
+     "published": "Fri, 25 Sep 2026 17:00:11 GMT"
+    },
+    "ch-supp": {
+     "etag": "",
+     "modified": "Fri, 25 Sep 2026 16:59:52 GMT",
+     "sha": "ac7d2c3cc93f284b",
+     "bytes": 295765,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_ch_28.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 28.09.2026 - Court of Chairperson",
+     "published": "Fri, 25 Sep 2026 16:59:52 GMT"
+    },
+    "IV-main": {
+     "etag": "",
+     "modified": "Fri, 25 Sep 2026 16:59:30 GMT",
+     "sha": "2b2bad20e0396956",
+     "bytes": 401873,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_IV_28.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 28.09.2026 - Court-IV",
+     "published": "Fri, 25 Sep 2026 16:59:30 GMT"
+    },
+    "II-main": {
+     "etag": "",
+     "modified": "Fri, 25 Sep 2026 16:59:16 GMT",
+     "sha": "f3c3e2e96b5edeec",
+     "bytes": 491273,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_II_28.09.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 28.09.2026 - Court-II",
+     "published": "Fri, 25 Sep 2026 16:59:16 GMT"
+    },
+    "ch-main": {
+     "etag": "",
+     "modified": "Fri, 25 Sep 2026 16:59:00 GMT",
+     "sha": "499e2b4f5c18a99c",
+     "bytes": 500093,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_ch_28.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 28.09.2026 - Court of Chairperson",
+     "published": "Fri, 25 Sep 2026 16:59:00 GMT"
+    },
+    "chennai-main": {
+     "etag": "",
+     "modified": "Fri, 25 Sep 2026 13:21:35 GMT",
+     "sha": "659fff11d5c30e4c",
+     "bytes": 432258,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/28.09.2026.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 28.09.2026 - Chennai Bench",
+     "published": "Fri, 25 Sep 2026 13:21:35 GMT"
+    }
+   },
+   "items": 211,
+   "fetched": "2026-10-13 12:05 IST"
+  },
+  "2026-09-29": {
+   "files": {
+    "IV-supp": {
+     "etag": "",
+     "modified": "Mon, 28 Sep 2026 13:07:16 GMT",
+     "sha": "b831509d09700763",
+     "bytes": 310331,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_IV_29.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 29.09.2026 - Court-IV",
+     "published": "Mon, 28 Sep 2026 13:07:16 GMT"
+    },
+    "II-supp": {
+     "etag": "",
+     "modified": "Mon, 28 Sep 2026 13:07:06 GMT",
+     "sha": "503d037a88778e52",
+     "bytes": 294269,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_II_29.09.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 29.09.2026 - Court-II",
+     "published": "Mon, 28 Sep 2026 13:07:06 GMT"
+    },
+    "ch-supp": {
+     "etag": "",
+     "modified": "Mon, 28 Sep 2026 13:06:50 GMT",
+     "sha": "0214edd904f08bdd",
+     "bytes": 301957,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_ch_29.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 29.09.2026 - Court of Chairperson",
+     "published": "Mon, 28 Sep 2026 13:06:50 GMT"
+    },
+    "chennai-supp": {
+     "etag": "",
+     "modified": "Mon, 28 Sep 2026 12:49:33 GMT",
+     "sha": "4ae8f3ba711a81d8",
+     "bytes": 155472,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/29.09.2026%20Suppl.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 29.09.2026 - Chennai Bench",
+     "published": "Mon, 28 Sep 2026 12:49:33 GMT"
+    },
+    "IV-main": {
+     "etag": "",
+     "modified": "Fri, 25 Sep 2026 17:01:22 GMT",
+     "sha": "c7f4077cfc0b5b54",
+     "bytes": 736100,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_IV_29.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 29.09.2026 - Court-IV",
+     "published": "Fri, 25 Sep 2026 17:01:22 GMT"
+    },
+    "II-main": {
+     "etag": "",
+     "modified": "Fri, 25 Sep 2026 17:01:10 GMT",
+     "sha": "3033dc8946ab9a5b",
+     "bytes": 504143,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_II_29.09.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 29.09.2026 - Court-II",
+     "published": "Fri, 25 Sep 2026 17:01:10 GMT"
+    },
+    "ch-main": {
+     "etag": "",
+     "modified": "Fri, 25 Sep 2026 17:00:54 GMT",
+     "sha": "b3db0b03a4b0ace3",
+     "bytes": 394840,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_ch_29.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 29.09.2026 - Court of Chairperson",
+     "published": "Fri, 25 Sep 2026 17:00:54 GMT"
+    },
+    "chennai-main": {
+     "etag": "",
+     "modified": "Fri, 25 Sep 2026 13:28:21 GMT",
+     "sha": "8827ec5b9c7b7267",
+     "bytes": 432802,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/29.09.2026.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 29.09.2026 - Chennai Bench",
+     "published": "Fri, 25 Sep 2026 13:28:21 GMT"
+    }
+   },
+   "items": 250,
+   "fetched": "2026-10-13 12:05 IST"
+  },
+  "2026-09-30": {
+   "files": {
+    "reg-main": {
+     "etag": "",
+     "modified": "Tue, 29 Sep 2026 13:04:20 GMT",
+     "sha": "9dcf6ad9d39465b5",
+     "bytes": 14544,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Registrar%20Court_30.09.2026.pdf",
+     "info": {
+      "ckey": "reg",
+      "court": "Registrar Court",
+      "order": 4,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 30.09.2026 - Registrar Court",
+     "published": "Tue, 29 Sep 2026 13:04:20 GMT"
+    },
+    "IV-supp": {
+     "etag": "",
+     "modified": "Tue, 29 Sep 2026 13:04:00 GMT",
+     "sha": "365391c46060df02",
+     "bytes": 434554,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_IV_30.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 30.09.2026 - Court-IV",
+     "published": "Tue, 29 Sep 2026 13:04:00 GMT"
+    },
+    "II-supp": {
+     "etag": "",
+     "modified": "Tue, 29 Sep 2026 13:03:49 GMT",
+     "sha": "47329d819dd67b92",
+     "bytes": 303473,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_II_30.09.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 30.09.2026 - Court-II",
+     "published": "Tue, 29 Sep 2026 13:03:49 GMT"
+    },
+    "ch-supp": {
+     "etag": "",
+     "modified": "Tue, 29 Sep 2026 13:03:34 GMT",
+     "sha": "31d5010d58945957",
+     "bytes": 308090,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_ch_30.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 30.09.2026 - Court of Chairperson",
+     "published": "Tue, 29 Sep 2026 13:03:34 GMT"
+    },
+    "chennai-supp": {
+     "etag": "",
+     "modified": "Tue, 29 Sep 2026 12:40:34 GMT",
+     "sha": "7e99469b77fb1c01",
+     "bytes": 155403,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/30.09.2026%20Suppl.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 30.09.2026 - Chennai Bench",
+     "published": "Tue, 29 Sep 2026 12:40:34 GMT"
+    },
+    "chennai-main": {
+     "etag": "",
+     "modified": "Mon, 28 Sep 2026 12:52:56 GMT",
+     "sha": "130112ceda3152cb",
+     "bytes": 410901,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/30.09.2026.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 30.09.2026 - Chennai Bench",
+     "published": "Mon, 28 Sep 2026 12:52:56 GMT"
+    },
+    "IV-main": {
+     "etag": "",
+     "modified": "Fri, 25 Sep 2026 17:02:38 GMT",
+     "sha": "f90c498af1d18140",
+     "bytes": 521326,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_IV_30.09.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 30.09.2026 - Court-IV",
+     "published": "Fri, 25 Sep 2026 17:02:38 GMT"
+    },
+    "II-main": {
+     "etag": "",
+     "modified": "Fri, 25 Sep 2026 17:02:26 GMT",
+     "sha": "e23664b27417ff0d",
+     "bytes": 392239,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_II_30.09.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 30.09.2026 - Court-II",
+     "published": "Fri, 25 Sep 2026 17:02:26 GMT"
+    },
+    "ch-main": {
+     "etag": "",
+     "modified": "Fri, 25 Sep 2026 17:01:41 GMT",
+     "sha": "ed9e0dc96e75e5e2",
+     "bytes": 488546,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_ch_30.09.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 30.09.2026 - Court of Chairperson",
+     "published": "Fri, 25 Sep 2026 17:01:41 GMT"
+    }
+   },
+   "items": 223,
+   "fetched": "2026-10-13 12:05 IST"
+  },
+  "2026-10-01": {
+   "files": {
+    "reg-main": {
+     "etag": "",
+     "modified": "Wed, 30 Sep 2026 13:49:50 GMT",
+     "sha": "ce75d2bd41d12795",
+     "bytes": 15504,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Registrar%20Court_01.10.2026.pdf",
+     "info": {
+      "ckey": "reg",
+      "court": "Registrar Court",
+      "order": 4,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 01.10.2026- Registrar Court",
+     "published": "Wed, 30 Sep 2026 13:49:50 GMT"
+    },
+    "II-supp": {
+     "etag": "",
+     "modified": "Wed, 30 Sep 2026 13:49:34 GMT",
+     "sha": "58801222725dc65b",
+     "bytes": 300866,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_II_01.10.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 01.10.2026 - Court-II",
+     "published": "Wed, 30 Sep 2026 13:49:34 GMT"
+    },
+    "ch-supp": {
+     "etag": "",
+     "modified": "Wed, 30 Sep 2026 13:49:13 GMT",
+     "sha": "9c8a3db399d4bc9d",
+     "bytes": 300224,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Supp_Causelist_ch_01.10.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 01.10.2026 - Court of Chairperson",
+     "published": "Wed, 30 Sep 2026 13:49:13 GMT"
+    },
+    "chennai-supp": {
+     "etag": "",
+     "modified": "Wed, 30 Sep 2026 12:52:22 GMT",
+     "sha": "3f20a1b3eda234cd",
+     "bytes": 152839,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/01.10.2026%20Suppl.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 01.10.2026 - Chennai Bench",
+     "published": "Wed, 30 Sep 2026 12:52:22 GMT"
+    },
+    "IV-main": {
+     "etag": "",
+     "modified": "Tue, 29 Sep 2026 13:56:24 GMT",
+     "sha": "d740845af7e581ba",
+     "bytes": 641227,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_IV_01.10.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 01.10.2026 - Court-IV",
+     "published": "Tue, 29 Sep 2026 13:56:24 GMT"
+    },
+    "II-main": {
+     "etag": "",
+     "modified": "Tue, 29 Sep 2026 13:56:09 GMT",
+     "sha": "fa82a6b0e8a6cf69",
+     "bytes": 351955,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_II_01.10.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 01.10.2026 - Court-II",
+     "published": "Tue, 29 Sep 2026 13:56:09 GMT"
+    },
+    "ch-main": {
+     "etag": "",
+     "modified": "Tue, 29 Sep 2026 13:55:53 GMT",
+     "sha": "ff88a1455f5555de",
+     "bytes": 439913,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/Causelist_ch_01.10.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 01.10.2026 - Court of Chairperson",
+     "published": "Tue, 29 Sep 2026 13:55:53 GMT"
+    },
+    "chennai-main": {
+     "etag": "",
+     "modified": "Tue, 29 Sep 2026 12:41:22 GMT",
+     "sha": "c3646bb6a09c7a75",
+     "bytes": 400472,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/01.10.2026.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 01.10.2026 - Chennai Bench",
+     "published": "Tue, 29 Sep 2026 12:41:22 GMT"
+    }
+   },
+   "items": 215,
+   "fetched": "2026-10-13 12:05 IST"
+  },
+  "2026-10-05": {
+   "files": {
+    "reg-main": {
+     "etag": "",
+     "modified": "Sat, 03 Oct 2026 08:12:40 GMT",
+     "sha": "11fff3203a817a2d",
+     "bytes": 14590,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Registrar%20Court_05.10.2026.pdf",
+     "info": {
+      "ckey": "reg",
+      "court": "Registrar Court",
+      "order": 4,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 05.10.2026 - Registrar Court",
+     "published": "Sat, 03 Oct 2026 08:12:40 GMT"
+    },
+    "IV-supp": {
+     "etag": "",
+     "modified": "Sat, 03 Oct 2026 08:12:24 GMT",
+     "sha": "dcf7e479b254ef92",
+     "bytes": 411251,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Supp_Causelist_IV_05.10.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 05.10.2026 - Court-IV",
+     "published": "Sat, 03 Oct 2026 08:12:24 GMT"
+    },
+    "ch-supp": {
+     "etag": "",
+     "modified": "Sat, 03 Oct 2026 08:11:58 GMT",
+     "sha": "9e07cd9754a306ef",
+     "bytes": 300834,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Supp_Causelist_ch_05.10.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 05.10.2026 - Court of Chairperson",
+     "published": "Sat, 03 Oct 2026 08:11:58 GMT"
+    },
+    "IV-main": {
+     "etag": "",
+     "modified": "Thu, 01 Oct 2026 15:58:40 GMT",
+     "sha": "0cc462e52a6d1734",
+     "bytes": 475118,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Causelist_IV_05.10.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 05.10.2026 - Court-IV",
+     "published": "Thu, 01 Oct 2026 15:58:40 GMT"
+    },
+    "II-main": {
+     "etag": "",
+     "modified": "Thu, 01 Oct 2026 15:58:36 GMT",
+     "sha": "1428f64299c13502",
+     "bytes": 461271,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Causelist_II_05.10.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 05.10.2026 - Court-II",
+     "published": "Thu, 01 Oct 2026 15:58:36 GMT"
+    },
+    "ch-main": {
+     "etag": "",
+     "modified": "Thu, 01 Oct 2026 15:58:32 GMT",
+     "sha": "7f38010507237431",
+     "bytes": 317382,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Causelist_ch_05.10.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 05.10.2026 - Court of Chairperson",
+     "published": "Thu, 01 Oct 2026 15:58:32 GMT"
+    },
+    "chennai-supp": {
+     "etag": "",
+     "modified": "Thu, 01 Oct 2026 12:49:35 GMT",
+     "sha": "274708ac810d9a76",
+     "bytes": 172597,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/05.10.2026%20Suppl.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 05.10.2026- Chennai Bench",
+     "published": "Thu, 01 Oct 2026 12:49:35 GMT"
+    },
+    "chennai-main": {
+     "etag": "",
+     "modified": "Wed, 30 Sep 2026 12:53:03 GMT",
+     "sha": "8b036e0a754963ce",
+     "bytes": 409665,
+     "url": "https://nclat.nic.in/sites/default/files/2026-09/05.10.2026.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 05.10.2026 - Chennai Bench",
+     "published": "Wed, 30 Sep 2026 12:53:03 GMT"
+    }
+   },
+   "items": 221,
+   "fetched": "2026-10-13 12:05 IST"
+  },
+  "2026-10-06": {
+   "files": {
+    "reg-main": {
+     "etag": "",
+     "modified": "Mon, 05 Oct 2026 13:21:56 GMT",
+     "sha": "810b205c1d9e5b92",
+     "bytes": 14579,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Registrar%20Court_06.10.2026.pdf",
+     "info": {
+      "ckey": "reg",
+      "court": "Registrar Court",
+      "order": 4,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 06.10.2026 - Registrar Court",
+     "published": "Mon, 05 Oct 2026 13:21:56 GMT"
+    },
+    "IV-supp": {
+     "etag": "",
+     "modified": "Mon, 05 Oct 2026 13:21:39 GMT",
+     "sha": "7238776025ab0dda",
+     "bytes": 306373,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Supp_Causelist_IV_06.10.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 06.10.2026 - Court-IV",
+     "published": "Mon, 05 Oct 2026 13:21:39 GMT"
+    },
+    "II-supp": {
+     "etag": "",
+     "modified": "Mon, 05 Oct 2026 13:21:30 GMT",
+     "sha": "24b049c71ea8f783",
+     "bytes": 421531,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Supp_Causelist_II_06.10.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 06.10.2026 - Court-II",
+     "published": "Mon, 05 Oct 2026 13:21:30 GMT"
+    },
+    "ch-supp": {
+     "etag": "",
+     "modified": "Mon, 05 Oct 2026 13:21:15 GMT",
+     "sha": "c18a20983abf3c55",
+     "bytes": 480329,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Supp_Causelist_ch_06.10.2026_0.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 06.10.2026 - Court of Chairperson",
+     "published": "Mon, 05 Oct 2026 13:21:15 GMT"
+    },
+    "chennai-supp": {
+     "etag": "",
+     "modified": "Mon, 05 Oct 2026 12:35:21 GMT",
+     "sha": "716831b11d892c92",
+     "bytes": 159925,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/06.10.2026%20Suppl.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 06.10.2026 - Chennai Bench",
+     "published": "Mon, 05 Oct 2026 12:35:21 GMT"
+    },
+    "IV-main": {
+     "etag": "",
+     "modified": "Thu, 01 Oct 2026 16:07:54 GMT",
+     "sha": "5310e82ec365ba72",
+     "bytes": 635280,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Causelist_IV_06.10.2026_0.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 06.10.2026 - Court-IV",
+     "published": "Thu, 01 Oct 2026 16:07:54 GMT"
+    },
+    "II-main": {
+     "etag": "",
+     "modified": "Thu, 01 Oct 2026 15:58:48 GMT",
+     "sha": "b0c440a88479aa4f",
+     "bytes": 456885,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Causelist_II_06.10.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 06.10.2026 - Court-II",
+     "published": "Thu, 01 Oct 2026 15:58:48 GMT"
+    },
+    "ch-main": {
+     "etag": "",
+     "modified": "Thu, 01 Oct 2026 15:58:44 GMT",
+     "sha": "fd8574b7bed0aa7c",
+     "bytes": 336945,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Causelist_ch_06.10.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 06.10.2026 - Court of Chairperson",
+     "published": "Thu, 01 Oct 2026 15:58:44 GMT"
+    },
+    "chennai-main": {
+     "etag": "",
+     "modified": "Thu, 01 Oct 2026 12:51:56 GMT",
+     "sha": "e7956051a3250540",
+     "bytes": 168187,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/06.10.2026_compressed.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 06.10.2026 - Chennai Bench",
+     "published": "Thu, 01 Oct 2026 12:51:56 GMT"
+    }
+   },
+   "items": 216,
+   "fetched": "2026-10-13 12:05 IST"
+  },
+  "2026-10-07": {
+   "files": {
+    "chennai-supp-2": {
+     "etag": "",
+     "modified": "Wed, 07 Oct 2026 05:40:12 GMT",
+     "sha": "39e49706cfe90b67",
+     "bytes": 155395,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/07.10.2026%20Suppl%20%28II%29.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "supp",
+      "seq": 2
+     },
+     "desc": "Supplementary Cause List (II) for 07.10.2026 - Chennai Bench",
+     "published": "Wed, 07 Oct 2026 05:40:12 GMT"
+    },
+    "reg-main": {
+     "etag": "",
+     "modified": "Tue, 06 Oct 2026 13:16:36 GMT",
+     "sha": "d6c7b8cbf23292bb",
+     "bytes": 11798,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Registrar%20Court_07.10.2026.pdf",
+     "info": {
+      "ckey": "reg",
+      "court": "Registrar Court",
+      "order": 4,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 07.10.2026 - Registrar Court",
+     "published": "Tue, 06 Oct 2026 13:16:36 GMT"
+    },
+    "IV-supp": {
+     "etag": "",
+     "modified": "Tue, 06 Oct 2026 13:16:23 GMT",
+     "sha": "3aa062f20dad7245",
+     "bytes": 324405,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Supp_Causelist_IV_07.10.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 07.10.2026 - Court-IV",
+     "published": "Tue, 06 Oct 2026 13:16:23 GMT"
+    },
+    "II-supp": {
+     "etag": "",
+     "modified": "Tue, 06 Oct 2026 13:16:18 GMT",
+     "sha": "d878fee1dd56e0bd",
+     "bytes": 441569,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Supp_Causelist_II_07.10.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 07.10.2026 - Court-II",
+     "published": "Tue, 06 Oct 2026 13:16:18 GMT"
+    },
+    "ch-supp": {
+     "etag": "",
+     "modified": "Tue, 06 Oct 2026 13:15:58 GMT",
+     "sha": "2d41a8a65042cd21",
+     "bytes": 493072,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Supp_Causelist_ch_07.10.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 07.10.2026 - Court of Chairperson",
+     "published": "Tue, 06 Oct 2026 13:15:58 GMT"
+    },
+    "chennai-supp": {
+     "etag": "",
+     "modified": "Tue, 06 Oct 2026 12:37:15 GMT",
+     "sha": "dd4f455e2faac575",
+     "bytes": 159971,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/07.10.2026%20Suppl.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 07.10.2026 - Chennai Bench",
+     "published": "Tue, 06 Oct 2026 12:37:15 GMT"
+    },
+    "chennai-main": {
+     "etag": "",
+     "modified": "Mon, 05 Oct 2026 12:37:25 GMT",
+     "sha": "c3e8105690ac5d2b",
+     "bytes": 410257,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/07.10.2026.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 07.10.2026 - Chennai Bench",
+     "published": "Mon, 05 Oct 2026 12:37:25 GMT"
+    },
+    "IV-main": {
+     "etag": "",
+     "modified": "Thu, 01 Oct 2026 15:59:10 GMT",
+     "sha": "cdb2a202a02dc525",
+     "bytes": 516225,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Causelist_IV_07.10.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 07.10.2026 - Court-IV",
+     "published": "Thu, 01 Oct 2026 15:59:10 GMT"
+    },
+    "II-main": {
+     "etag": "",
+     "modified": "Thu, 01 Oct 2026 15:59:05 GMT",
+     "sha": "4641ee4ef5a0aab1",
+     "bytes": 451045,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Causelist_II_07.10.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 07.10.2026 - Court-II",
+     "published": "Thu, 01 Oct 2026 15:59:05 GMT"
+    },
+    "ch-main": {
+     "etag": "",
+     "modified": "Thu, 01 Oct 2026 15:59:01 GMT",
+     "sha": "d1a5c1d8ca3a8ca6",
+     "bytes": 330735,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Causelist_ch_07.10.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 07.10.2026 - Court of Chairperson",
+     "published": "Thu, 01 Oct 2026 15:59:01 GMT"
+    }
+   },
+   "items": 227,
+   "fetched": "2026-10-13 12:05 IST"
+  },
+  "2026-10-08": {
+   "files": {
+    "reg-main": {
+     "etag": "",
+     "modified": "Wed, 07 Oct 2026 14:03:35 GMT",
+     "sha": "81c1d4928e508d9f",
+     "bytes": 10711,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Registrar%20Court_08.10.2026_0.pdf",
+     "info": {
+      "ckey": "reg",
+      "court": "Registrar Court",
+      "order": 4,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 08.10.2026 - Registrar Court",
+     "published": "Wed, 07 Oct 2026 14:03:35 GMT"
+    },
+    "IV-supp": {
+     "etag": "",
+     "modified": "Wed, 07 Oct 2026 14:02:22 GMT",
+     "sha": "57a61ee347b643d7",
+     "bytes": 308114,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Supp_Causelist_IV_08.10.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 08.10.2026 - Court-IV",
+     "published": "Wed, 07 Oct 2026 14:02:22 GMT"
+    },
+    "II-supp": {
+     "etag": "",
+     "modified": "Wed, 07 Oct 2026 14:02:12 GMT",
+     "sha": "224c42551e30b586",
+     "bytes": 311938,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Supp_Causelist_II_08.10.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 08.10.2026 - Court-II",
+     "published": "Wed, 07 Oct 2026 14:02:12 GMT"
+    },
+    "ch-supp": {
+     "etag": "",
+     "modified": "Wed, 07 Oct 2026 14:01:38 GMT",
+     "sha": "8df0a6332f72133d",
+     "bytes": 476639,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Supp_Causelist_ch_08.10.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 08.10.2026 - Court of Chairperson",
+     "published": "Wed, 07 Oct 2026 14:01:38 GMT"
+    },
+    "IV-main": {
+     "etag": "",
+     "modified": "Tue, 06 Oct 2026 15:24:13 GMT",
+     "sha": "e39880bd4939ff84",
+     "bytes": 464686,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Causelist_IV_08.10.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 08.10.2026 - Court-IV",
+     "published": "Tue, 06 Oct 2026 15:24:13 GMT"
+    },
+    "II-main": {
+     "etag": "",
+     "modified": "Tue, 06 Oct 2026 15:24:10 GMT",
+     "sha": "8190e08219c83b79",
+     "bytes": 467796,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Causelist_II_08.10.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 08.10.2026 - Court-II",
+     "published": "Tue, 06 Oct 2026 15:24:10 GMT"
+    },
+    "ch-main": {
+     "etag": "",
+     "modified": "Tue, 06 Oct 2026 15:24:06 GMT",
+     "sha": "e31d582f6477b9b8",
+     "bytes": 340448,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Causelist_ch_08.10.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 08.10.2026 - Court of Chairperson",
+     "published": "Tue, 06 Oct 2026 15:24:06 GMT"
+    },
+    "chennai-main": {
+     "etag": "",
+     "modified": "Tue, 06 Oct 2026 12:38:00 GMT",
+     "sha": "dafd0588def10365",
+     "bytes": 436865,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/08.10.2026.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 08.10.2026 - Chennai Bench",
+     "published": "Tue, 06 Oct 2026 12:38:00 GMT"
+    }
+   },
+   "items": 260,
+   "fetched": "2026-10-13 12:05 IST"
+  },
+  "2026-10-09": {
+   "files": {
+    "IV-supp": {
+     "etag": "",
+     "modified": "Thu, 08 Oct 2026 13:27:44 GMT",
+     "sha": "df1f36cbe6357e72",
+     "bytes": 319981,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Supp_Causelist_IV_09.10.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 09.10.2026 - Court-IV",
+     "published": "Thu, 08 Oct 2026 13:27:44 GMT"
+    },
+    "II-supp": {
+     "etag": "",
+     "modified": "Thu, 08 Oct 2026 13:27:34 GMT",
+     "sha": "f7f2d407d7cd1b69",
+     "bytes": 303195,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Supp_Causelist_II_09.10.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 09.10.2026 - Court-II",
+     "published": "Thu, 08 Oct 2026 13:27:34 GMT"
+    },
+    "ch-supp": {
+     "etag": "",
+     "modified": "Thu, 08 Oct 2026 13:27:19 GMT",
+     "sha": "dee2b113c85b319e",
+     "bytes": 328517,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Supp_Causelist_ch_09.10.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 09.10.2026 - Court of Chairperson",
+     "published": "Thu, 08 Oct 2026 13:27:19 GMT"
+    },
+    "chennai-main": {
+     "etag": "",
+     "modified": "Wed, 07 Oct 2026 12:59:36 GMT",
+     "sha": "bab1595c83ec3d00",
+     "bytes": 278349,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/09.10.2026.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 09.10.2026 - Chennai Bench",
+     "published": "Wed, 07 Oct 2026 12:59:36 GMT"
+    },
+    "IV-main": {
+     "etag": "",
+     "modified": "Tue, 06 Oct 2026 15:24:27 GMT",
+     "sha": "7e92cd6d15048998",
+     "bytes": 485140,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Causelist_IV_09.10.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 09.10.2026 - Court-IV",
+     "published": "Tue, 06 Oct 2026 15:24:27 GMT"
+    },
+    "II-main": {
+     "etag": "",
+     "modified": "Tue, 06 Oct 2026 15:24:23 GMT",
+     "sha": "49837e6bea8db58a",
+     "bytes": 358602,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Causelist_II_09.10.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 09.10.2026 - Court-II",
+     "published": "Tue, 06 Oct 2026 15:24:23 GMT"
+    },
+    "ch-main": {
+     "etag": "",
+     "modified": "Tue, 06 Oct 2026 15:24:19 GMT",
+     "sha": "6dfeab4d2bf3790f",
+     "bytes": 344637,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Causelist_ch_09.10.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 09.10.2026 - Court of Chairperson",
+     "published": "Tue, 06 Oct 2026 15:24:19 GMT"
+    }
+   },
+   "items": 233,
+   "fetched": "2026-10-13 12:05 IST"
+  },
+  "2026-10-12": {
+   "files": {
+    "IV-supp": {
+     "etag": "",
+     "modified": "Fri, 09 Oct 2026 16:14:52 GMT",
+     "sha": "c7e851d6afdf9b76",
+     "bytes": 293051,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Supp_Causelist_IV_12.10.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 12.10.2026 - Court-IV",
+     "published": "Fri, 09 Oct 2026 16:14:52 GMT"
+    },
+    "ch-supp": {
+     "etag": "",
+     "modified": "Fri, 09 Oct 2026 16:14:34 GMT",
+     "sha": "59e46392150890b3",
+     "bytes": 292029,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Supp_Causelist_ch_12.10.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 12.10.2026 - Court of Chairperson",
+     "published": "Fri, 09 Oct 2026 16:14:34 GMT"
+    },
+    "reg-main": {
+     "etag": "",
+     "modified": "Fri, 09 Oct 2026 16:17:40 GMT",
+     "sha": "4fe4fe048f061e85",
+     "bytes": 8891,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Registrar%20Court_12.10.2026.pdf",
+     "info": {
+      "ckey": "reg",
+      "court": "Registrar Court",
+      "order": 4,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 12.10.2026 - Registrar Court",
+     "published": "Fri, 09 Oct 2026 16:17:40 GMT"
+    },
+    "IV-main": {
+     "etag": "",
+     "modified": "Fri, 09 Oct 2026 16:12:52 GMT",
+     "sha": "ce1ad05dcac2535a",
+     "bytes": 465041,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Causelist_IV_12.10.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 12.10.2026 - Court-IV",
+     "published": "Fri, 09 Oct 2026 16:12:52 GMT"
+    },
+    "II-main": {
+     "etag": "",
+     "modified": "Fri, 09 Oct 2026 16:13:37 GMT",
+     "sha": "f4e4ccaac333364b",
+     "bytes": 474554,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Causelist_II_12.10.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 12.10.2026 - Court-II",
+     "published": "Fri, 09 Oct 2026 16:13:37 GMT"
+    },
+    "ch-main": {
+     "etag": "",
+     "modified": "Fri, 09 Oct 2026 16:16:53 GMT",
+     "sha": "36c4b06c796a6949",
+     "bytes": 467038,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Causelist_ch_12.10.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 12.10.2026 - Court of Chairperson",
+     "published": "Fri, 09 Oct 2026 16:16:53 GMT"
+    },
+    "chennai-main": {
+     "etag": "",
+     "modified": "Fri, 09 Oct 2026 11:37:32 GMT",
+     "sha": "fc7d5b8c3466ee7d",
+     "bytes": 399050,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/12.10.2026_0.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 12.10.2026 - Chennai Bench",
+     "published": "Fri, 09 Oct 2026 11:37:32 GMT"
+    }
+   },
+   "items": 211,
+   "fetched": "2026-10-13 12:05 IST"
+  },
+  "2026-10-13": {
+   "files": {
+    "IV-supp": {
+     "etag": "",
+     "modified": "Mon, 12 Oct 2026 12:51:40 GMT",
+     "sha": "1dd526ea0256ab53",
+     "bytes": 304059,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Supp_Causelist_IV_13.10.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 13.10.2026 - Court-IV",
+     "published": "Mon, 12 Oct 2026 12:51:40 GMT"
+    },
+    "II-supp": {
+     "etag": "",
+     "modified": "Mon, 12 Oct 2026 12:51:30 GMT",
+     "sha": "965b88c4a61ae527",
+     "bytes": 309691,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Supp_Causelist_II_13.10.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 13.10.2026 - Court-II",
+     "published": "Mon, 12 Oct 2026 12:51:30 GMT"
+    },
+    "reg-main": {
+     "etag": "",
+     "modified": "Mon, 12 Oct 2026 12:52:03 GMT",
+     "sha": "072b21e314d9554d",
+     "bytes": 12546,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Registrar%20Court_13.10.2026.pdf",
+     "info": {
+      "ckey": "reg",
+      "court": "Registrar Court",
+      "order": 4,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 13.10.2026 - Registrar Court",
+     "published": "Mon, 12 Oct 2026 12:52:03 GMT"
+    },
+    "ch-supp": {
+     "etag": "",
+     "modified": "Mon, 12 Oct 2026 12:51:15 GMT",
+     "sha": "d44cb1fb243ac11a",
+     "bytes": 293406,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Supp_Causelist_ch_13.10.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 13.10.2026 - Court of Chairperson",
+     "published": "Mon, 12 Oct 2026 12:51:15 GMT"
+    },
+    "IV-main": {
+     "etag": "",
+     "modified": "Fri, 09 Oct 2026 16:04:53 GMT",
+     "sha": "9957bd5c443890cd",
+     "bytes": 470764,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Causelist_IV_13.10.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 13.10.2026 - Court-IV",
+     "published": "Fri, 09 Oct 2026 16:04:53 GMT"
+    },
+    "II-main": {
+     "etag": "",
+     "modified": "Fri, 09 Oct 2026 16:04:39 GMT",
+     "sha": "65831d7cb8e5d5d2",
+     "bytes": 440277,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Causelist_II_13.10.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 13.10.2026 - Court-II",
+     "published": "Fri, 09 Oct 2026 16:04:39 GMT"
+    },
+    "ch-main": {
+     "etag": "",
+     "modified": "Fri, 09 Oct 2026 16:04:27 GMT",
+     "sha": "e1bd9bec216c5033",
+     "bytes": 353794,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Causelist_ch_13.10.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 13.10.2026 - Court of Chairperson",
+     "published": "Fri, 09 Oct 2026 16:04:27 GMT"
+    },
+    "chennai-main": {
+     "etag": "",
+     "modified": "Fri, 09 Oct 2026 11:39:24 GMT",
+     "sha": "315f71651f67807e",
+     "bytes": 405785,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/13.10.2026.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 13.10.2026 - Chennai Bench",
+     "published": "Fri, 09 Oct 2026 11:39:24 GMT"
+    }
+   },
+   "items": 209,
+   "fetched": "2026-10-13 12:05 IST"
+  },
+  "2026-10-14": {
+   "files": {
+    "chennai-main": {
+     "etag": "",
+     "modified": "Mon, 12 Oct 2026 11:42:34 GMT",
+     "sha": "7fb526ab448c8168",
+     "bytes": 425786,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/14.10.2026.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 14.10.2026 - Chennai Bench",
+     "published": "Mon, 12 Oct 2026 11:42:34 GMT"
+    },
+    "IV-main": {
+     "etag": "",
+     "modified": "Fri, 09 Oct 2026 16:05:49 GMT",
+     "sha": "6a4a850030edea3c",
+     "bytes": 639599,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Causelist_IV_14.10.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 14.10.2026 - Court-IV",
+     "published": "Fri, 09 Oct 2026 16:05:49 GMT"
+    },
+    "II-main": {
+     "etag": "",
+     "modified": "Fri, 09 Oct 2026 16:05:35 GMT",
+     "sha": "95ed5472576fe98d",
+     "bytes": 354182,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Causelist_II_14.10.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 14.10.2026 - Court-II",
+     "published": "Fri, 09 Oct 2026 16:05:35 GMT"
+    },
+    "ch-main": {
+     "etag": "",
+     "modified": "Fri, 09 Oct 2026 16:05:21 GMT",
+     "sha": "5ef641c8019a7dce",
+     "bytes": 533679,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Causelist_ch_14.10.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 14.10.2026 - Court of Chairperson",
+     "published": "Fri, 09 Oct 2026 16:05:21 GMT"
+    }
+   },
+   "items": 191,
+   "fetched": "2026-10-13 12:05 IST"
+  }
+ },
+ "updated": "2026-10-13 12:05 IST"
+}

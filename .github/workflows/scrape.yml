@@ -1,0 +1,83 @@
+name: Scrape NCLAT cause lists
+
+on:
+  schedule:
+    # Checks run 9:00 AM – 11:00 PM IST only; nothing overnight.
+    # Every 30 min in the morning and evening (when NCLAT publishes lists),
+    # hourly in between. GitHub cron is UTC (IST = UTC+5:30) and often runs
+    # a few minutes late.
+    - cron: "30 3 * * *"       # 09:00 IST
+    - cron: "0,30 4 * * *"     # 09:30, 10:00 IST
+    - cron: "0 5-9 * * *"      # 10:30 – 14:30 IST, hourly
+    - cron: "30 9-17 * * *"    # 15:00 – 23:00 IST, on the hour
+    - cron: "0 10-17 * * *"    # 15:30 – 22:30 IST, on the half hour
+  workflow_dispatch:
+    inputs:
+      days_back:
+        description: "Past days to re-check"
+        required: false
+        default: "2"
+      days_ahead:
+        description: "Future days to check"
+        required: false
+        default: "7"
+      force:
+        description: "Re-download and re-parse everything (after a parser change)"
+        type: boolean
+        default: false
+
+# Needed so the job can commit the refreshed JSON back to the repo.
+permissions:
+  contents: write
+
+concurrency:
+  group: nclat-scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Scrape
+        run: |
+          python scrape.py \
+            --days-back "${{ github.event.inputs.days_back || '2' }}" \
+            --days-ahead "${{ github.event.inputs.days_ahead || '7' }}" \
+            ${{ github.event.inputs.force == 'true' && '--force' || '' }}
+
+      - name: Commit updated data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "Update NCLAT cause list data ($(TZ=Asia/Kolkata date '+%Y-%m-%d %H:%M IST'))"
+
+          # The scheduled run and a manual run can race; rebase and retry.
+          for attempt in 1 2 3; do
+            if git push; then
+              echo "Pushed on attempt $attempt."
+              exit 0
+            fi
+            echo "Push failed (attempt $attempt) — rebasing onto origin."
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+          done
+
+          echo "::error::Could not push updated data after 3 attempts."
+          exit 1
