@@ -3715,10 +3715,26 @@
      },
      "desc": "Cause List for 14.10.2026 - Court of Chairperson",
      "published": "Fri, 09 Oct 2026 16:05:21 GMT"
+    },
+    "chennai-supp": {
+     "etag": "",
+     "modified": "Tue, 13 Oct 2026 12:07:10 GMT",
+     "sha": "6c32cb12f7e10af0",
+     "bytes": 192356,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/14.10.2026%20Suppl.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 14.10.2026- Chennai Bench",
+     "published": "Tue, 13 Oct 2026 12:07:10 GMT"
     }
    },
-   "items": 191,
-   "fetched": "2026-10-13 12:07 IST"
+   "items": 192,
+   "fetched": "2026-10-13 18:28 IST"
   },
   "2026-10-15": {
    "files": {
@@ -3743,5 +3759,5 @@
    "fetched": "2026-10-13 17:37 IST"
   }
  },
- "updated": "2026-10-13 17:37 IST"
+ "updated": "2026-10-13 18:28 IST"
 }
