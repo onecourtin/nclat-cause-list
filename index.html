@@ -6,73 +6,61 @@
 <title>NCLAT Cause List — OneCourt</title>
 <meta name="description" content="NCLAT daily cause list as a searchable web page — court-wise, with case numbers, parties and counsel. Principal Bench (New Delhi) and Chennai Bench. Updated automatically from the official lists.">
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 :root{
-  --ink:#201e1d; --paper:#FFFFFF; --panel:#f3f2f2; --card-alt:#eae9e9;
-  --line:#d7d3d3; --primary:#201e1d; --on-primary:#f3f2f2; --nav-dim:#9b9797;
-  --accent:#ec3013; --accent-dark:#ae1800; --accent-bg:#fff2ef;
-  --gold:#7d7979; --muted:#605d5d; --faint:#9b9797;
-  --ok:#1F8A5F; --danger:#7a1220; --warn:#B45309; --warn-bg:#FEF3C7;
-  --font-ui:'Archivo',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+  --ink:#1A2027; --paper:#FFFFFF; --panel:#F7F8FA; --card-alt:#F1F3F6;
+  --line:#E4E7EC; --primary:#1E2733; --on-primary:#EBF0F6; --nav-dim:#9AA7B8;
+  --accent:#2563EB; --accent-dark:#1D4ED8; --accent-bg:#EEF3FE;
+  --gold:#9DBBF2; --muted:#5A6472; --faint:#98A1AD;
+  --ok:#1F8A5F; --danger:#D24B47; --warn:#C0842E; --warn-bg:#FDF3E1;
+  --font-ui:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
 }
 [hidden]{display:none!important;}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
 html,body{margin:0;padding:0;}
 body{font-family:var(--font-ui);background:var(--panel);color:var(--ink);font-size:13.5px;line-height:1.55;min-height:100vh;}
-::selection{background:#ffe0d9;color:#201e1d;}
+::selection{background:#cfe0ff;color:#1E293B;}
 a{color:var(--accent);}
 a:hover{color:var(--accent-dark);}
 *:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
 
-.site-header{background:var(--primary);color:var(--on-primary);position:sticky;top:0;z-index:40;}
-.site-header .inner{max-width:1180px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:60px;padding:0 24px;}
-.site-header .left{display:flex;align-items:center;gap:12px;}
-.oc-logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit;}
+.jt-header{background:var(--primary);color:var(--on-primary);padding:0 32px;position:sticky;top:0;z-index:40;}
+.jt-header .in{max-width:1240px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:60px;}
+.jt-left{display:flex;align-items:center;gap:12px;}
+.oc-logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:inherit;}
 .oc-logo:hover{opacity:.85;}
-.oc-logo .mark{width:34px;height:34px;color:var(--on-primary);display:flex;align-items:center;justify-content:center;}
-.oc-logo .name{font-size:20px;font-weight:800;letter-spacing:-.02em;}
-.site-header .tag{font-size:11px;color:var(--nav-dim);border-left:1px solid rgba(255,255,255,.16);padding-left:12px;margin-left:4px;letter-spacing:.1em;text-transform:uppercase;font-weight:600;}
-.site-header .right{display:flex;align-items:center;gap:20px;}
-.oc-nav{display:flex;align-items:center;gap:20px;font-size:13.5px;}
-.oc-nav a.oc-navlink{color:rgba(255,255,255,.72);text-decoration:none;white-space:nowrap;}
-.oc-nav a.oc-navlink:hover{color:#fff;}
-details.oc-tools{position:relative;}
-details.oc-tools>summary{list-style:none;outline:none;cursor:pointer;color:rgba(255,255,255,.72);display:inline-flex;align-items:center;gap:6px;white-space:nowrap;font-size:13.5px;}
-details.oc-tools>summary:hover{color:#fff;}
-details.oc-tools>summary::-webkit-details-marker{display:none;}
-details.oc-tools>summary .car{font-size:10px;}
-details.oc-tools[open]>summary .car{display:inline-block;transform:rotate(180deg);}
-details.oc-tools .menu{position:absolute;top:calc(100% + 14px);right:0;min-width:240px;background:#fff;border:1.5px solid var(--line);box-shadow:0 12px 34px color-mix(in srgb, var(--ink) 24%, transparent);padding:6px;z-index:60;}
-details.oc-tools .menu a{display:block;padding:10px 12px;text-decoration:none;color:var(--ink);font-size:13.5px;}
-details.oc-tools .menu a:hover{background:rgba(0,0,0,.05);}
-details.oc-tools .menu a.current{font-weight:600;background:rgba(0,0,0,.05);}
-.oc-contact{display:inline-flex;align-items:center;text-decoration:none;background:var(--accent);color:#fff;font-size:13px;font-weight:600;padding:8px 16px;border:1.5px solid var(--accent);white-space:nowrap;}
-.oc-contact:hover{background:var(--accent-dark);border-color:var(--accent-dark);color:#fff;}
+.oc-logo .mark{width:34px;height:34px;color:#fff;display:flex;align-items:center;justify-content:center;}
+.oc-logo .name{font-size:22px;font-weight:700;letter-spacing:-.01em;}
+.jt-sub{font-size:11px;color:var(--nav-dim);border-left:1px solid rgba(255,255,255,.16);padding-left:12px;margin-left:4px;letter-spacing:.08em;text-transform:uppercase;}
+.jt-right{display:flex;align-items:center;gap:22px;}
+.jt-contact-btn{display:inline-flex;align-items:center;gap:7px;text-decoration:none;background:var(--accent);color:#fff;font-size:13px;font-weight:600;padding:8px 16px;border:1.5px solid var(--accent);border-radius:6px;white-space:nowrap;}
+.jt-contact-btn:hover{background:#1D4ED8;border-color:#1D4ED8;color:#fff;}
+.jt-fb-short{display:none;}
 
-.app{max-width:1180px;margin:0 auto;padding:36px 24px 64px;}
-header.top{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;border-bottom:3px solid var(--ink);padding-bottom:18px;margin-bottom:22px;flex-wrap:wrap;}
+.app{max-width:1240px;margin:0 auto;padding:36px 24px 64px;}
+header.top{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;border-bottom:1px solid var(--line);padding-bottom:18px;margin-bottom:22px;flex-wrap:wrap;}
 header.top .eyebrow{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:10px;}
-header.top h1{font-size:36px;margin:0;font-weight:800;letter-spacing:-.03em;line-height:1.03;}
+header.top h1{font-size:40px;margin:0;font-weight:600;letter-spacing:-.015em;line-height:1.05;}
 header.top h1 em{font-style:normal;color:var(--accent);}
 header.top .meta{font-size:12px;color:var(--muted);text-align:right;}
 
 /* ── Controls ── */
-.controls{background:var(--paper);border:1.5px solid var(--line);margin-bottom:20px;}
+.controls{background:var(--paper);border:1px solid var(--line);border-radius:10px;overflow:hidden;margin-bottom:20px;}
 .ctl-row{padding:14px 16px;border-bottom:1.5px solid var(--line);display:flex;gap:14px;align-items:flex-start;}
 .ctl-row:last-child{border-bottom:none;}
 .ctl-label{flex:0 0 74px;font-size:10.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding-top:7px;}
 .ctl-body{flex:1;min-width:0;}
 
 .dates{display:flex;flex-wrap:wrap;gap:6px;align-items:center;}
-.chip{font-family:inherit;font-size:13px;border:1.5px solid var(--line);background:#fff;color:var(--ink);padding:6px 12px;cursor:pointer;white-space:nowrap;line-height:1.3;}
+.chip{border-radius:6px;font-family:inherit;font-size:13px;border:1.5px solid var(--line);background:#fff;color:var(--ink);padding:6px 12px;cursor:pointer;white-space:nowrap;line-height:1.3;}
 .chip:hover{border-color:var(--ink);}
 .chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:#fff;}
 .chip .dow{font-weight:700;margin-right:4px;}
-select.older{font-family:inherit;font-size:13px;padding:6px 8px;border:1.5px solid var(--line);background:#fff;color:var(--muted);}
+select.older{border-radius:6px;font-family:inherit;font-size:13px;padding:6px 8px;border:1.5px solid var(--line);background:#fff;color:var(--muted);}
 
 .search{position:relative;}
-.search input{width:100%;font-family:inherit;font-size:15px;padding:10px 38px 10px 12px;border:1.5px solid var(--line);background:#fff;color:var(--ink);outline:none;}
-.search input:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(236,48,19,.14);}
+.search input{border-radius:6px;width:100%;font-family:inherit;font-size:15px;padding:10px 38px 10px 12px;border:1.5px solid var(--line);background:#fff;color:var(--ink);outline:none;}
+.search input:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(37,99,235,.18);}
 .search .clear{position:absolute;right:6px;top:50%;transform:translateY(-50%);border:none;background:none;font-size:20px;line-height:1;color:var(--faint);cursor:pointer;padding:4px 8px;}
 .search .clear:hover{color:var(--ink);}
 .hint{font-size:12px;color:var(--muted);margin-top:6px;}
@@ -81,13 +69,13 @@ select.older{font-family:inherit;font-size:13px;padding:6px 8px;border:1.5px sol
 .picker-group:last-child{margin-bottom:0;}
 .pg-name{flex:0 0 92px;font-size:11.5px;font-weight:700;color:var(--muted);}
 .pills{display:flex;flex-wrap:wrap;gap:5px;}
-.pill{font-family:inherit;font-size:12.5px;font-weight:600;border:1.5px solid var(--line);background:#fff;color:var(--ink);padding:4px 10px;cursor:pointer;min-width:38px;text-align:center;}
+.pill{border-radius:6px;font-family:inherit;font-size:12.5px;font-weight:600;border:1.5px solid var(--line);background:#fff;color:var(--ink);padding:4px 10px;cursor:pointer;min-width:38px;text-align:center;}
 .pill:hover{border-color:var(--ink);}
 .pill[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff;}
-.picker-select{display:none;width:100%;font-family:inherit;font-size:14px;padding:9px 10px;border:1.5px solid var(--line);background:#fff;color:var(--ink);}
+.picker-select{border-radius:6px;display:none;width:100%;font-family:inherit;font-size:14px;padding:9px 10px;border:1.5px solid var(--line);background:#fff;color:var(--ink);}
 
 /* ── Bench ── */
-.bench{background:var(--paper);border:1.5px solid var(--line);margin-bottom:20px;}
+.bench{background:var(--paper);border:1px solid var(--line);border-radius:10px;overflow:hidden;margin-bottom:20px;}
 .bench-head{padding:16px 18px;border-bottom:1.5px solid var(--line);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;}
 .bench-court{font-size:22px;font-weight:800;letter-spacing:-.02em;line-height:1.15;}
 .bench-court small.main{color:var(--ink);}
@@ -100,7 +88,7 @@ select.older{font-family:inherit;font-size:13px;padding:6px 8px;border:1.5px sol
 .bench-side .time{font-size:15px;font-weight:700;color:var(--ink);}
 .tag-pill{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:var(--card-alt);padding:2px 7px;margin:2px 0 0 4px;}
 .tag-pill.supp{background:var(--warn-bg);color:var(--warn);}
-details.notes{border-bottom:1.5px solid var(--line);background:#fcfbfb;}
+details.notes{border-bottom:1.5px solid var(--line);background:#FAFBFC;}
 details.notes summary{cursor:pointer;padding:9px 18px;font-size:12px;font-weight:700;color:var(--muted);list-style:none;}
 details.notes summary::-webkit-details-marker{display:none;}
 details.notes summary::before{content:"▸ ";}
@@ -113,11 +101,11 @@ details.notes li{margin-bottom:4px;}
 
 .item{display:grid;grid-template-columns:58px 190px minmax(0,1fr) minmax(0,.85fr);column-gap:18px;padding:13px 18px;border-bottom:1px solid var(--line);}
 .item:last-child{border-bottom:none;}
-.item.conn{background:#fbfafa;}
+.item.conn{background:#FAFBFC;}
 .item.conn .no{border-left:3px solid var(--gold);padding-left:7px;}
 .item.hit{background:var(--accent-bg);}
 .item.flash{animation:flash 1.6s ease-out;}
-@keyframes flash{from{background:#ffd8cf;}to{background:transparent;}}
+@keyframes flash{from{background:#cfe0ff;}to{background:transparent;}}
 .no{font-size:17px;font-weight:800;letter-spacing:-.02em;}
 .no .ctag{display:block;font-size:9.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--gold);margin-top:2px;}
 .case{font-weight:600;word-break:break-word;}
@@ -129,12 +117,12 @@ details.notes li{margin-bottom:4px;}
 .advs .ra{margin-top:8px;}
 .xnotes{grid-column:3 / 5;margin-top:8px;font-size:12px;color:var(--muted);display:flex;flex-direction:column;gap:2px;}
 .xnotes .mm{color:var(--accent-dark);font-weight:700;}
-mark{background:#ffe08a;color:inherit;padding:0 1px;}
+mark{background:#FDE68A;color:inherit;padding:0 1px;}
 
 .court-link{font-size:11px;font-weight:700;color:var(--accent);text-decoration:none;letter-spacing:.04em;text-transform:uppercase;cursor:pointer;background:none;border:none;font-family:inherit;padding:0;}
 .court-link:hover{text-decoration:underline;}
 .empty,.loading,.error{background:var(--paper);border:1.5px solid var(--line);padding:40px 24px;text-align:center;color:var(--muted);}
-.error{border-color:#e9b7ae;background:var(--accent-bg);color:var(--danger);text-align:left;}
+.error{border-color:#F2C4C2;background:#FDF1F0;color:var(--danger);text-align:left;}
 .empty strong,.error strong{display:block;color:var(--ink);font-size:15px;margin-bottom:6px;}
 
 .sources{font-size:12px;color:var(--muted);margin:-8px 0 20px;display:flex;flex-wrap:wrap;gap:4px 14px;}
@@ -143,7 +131,7 @@ mark{background:#ffe08a;color:inherit;padding:0 1px;}
 .disclaimer{font-size:12px;color:var(--muted);line-height:1.6;border-left:3px solid var(--ink);background:var(--card-alt);padding:11px 14px;}
 
 .site-footer{border-top:1px solid var(--line);background:var(--card-alt);}
-.site-footer .inner{max-width:1180px;margin:0 auto;padding:20px 24px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:12px;color:var(--faint);}
+.site-footer .inner{max-width:1240px;margin:0 auto;padding:20px 24px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:12px;color:var(--faint);}
 .site-footer .mono{letter-spacing:.06em;text-transform:uppercase;font-size:11px;font-weight:600;}
 
 @media(max-width:900px){
@@ -162,8 +150,11 @@ mark{background:#ffe08a;color:inherit;padding:0 1px;}
   .item .advs,.item .xnotes{display:none;}
   .item.open .advs{display:block;}
   .item.open .xnotes{display:flex;}
-  .site-header .inner{flex-wrap:wrap;height:auto;row-gap:8px;padding-top:10px;padding-bottom:10px;}
-  .oc-navlink{display:none;}
+  .jt-header{padding-left:16px;padding-right:16px;}
+  .jt-sub{display:none;}
+  .jt-fb-full{display:none;}
+  .jt-fb-short{display:inline;}
+  .jt-right{gap:12px;}
   .app{padding:22px 16px 48px;}
   header.top h1{font-size:28px;}
   header.top .meta{text-align:left;}
@@ -175,43 +166,25 @@ mark{background:#ffe08a;color:inherit;padding:0 1px;}
   .bench-side{text-align:left;align-items:flex-start;}
   .item{padding:12px 14px;column-gap:12px;}
   .section-title{padding:8px 14px;top:0;position:static;}
-  .search input{font-size:16px;}
+  .search input{border-radius:6px;font-size:16px;}
 }
 </style>
 </style>
 </head>
 <body>
 
-<header class="site-header">
-  <div class="inner">
-    <div class="left">
+<header class="jt-header">
+  <div class="in">
+    <div class="jt-left">
       <a class="oc-logo" href="https://onecourt.in">
         <span class="mark"><svg viewBox="0 0 100 100" width="34" height="34"><rect x="12" y="12" width="76" height="76" rx="17" fill="none" stroke="currentColor" stroke-width="7"/><circle cx="40" cy="50" r="11" fill="none" stroke="currentColor" stroke-width="6"/><path d="M68 41 A11 11 0 1 0 68 59" fill="none" stroke="#C39A52" stroke-width="6" stroke-linecap="round"/></svg></span>
         <span class="name">OneCourt</span>
       </a>
-      <span class="tag">NCLAT Cause List</span>
+      <span class="jt-sub">NCLAT Cause List</span>
     </div>
-    <div class="right">
-      <nav class="oc-nav">
-        <a class="oc-navlink" href="https://onecourt.in/about-onecourt.html">Start Here</a>
-        <details class="oc-tools">
-          <summary>Tools for Lawyers <span class="car">▾</span></summary>
-          <div class="menu">
-            <a href="https://onecourt.in/Court_Holiday_Planner.html">Court Holiday Planner</a>
-            <a href="https://onecourt.in/vakalatnama-generator.html">Generate Vakalatnama</a>
-            <a href="https://onecourt.in/sctools/index.html">SC Filing Workspace</a>
-            <a href="https://onecourt.in/sctools/affidavit-generator.html">SC Affidavit Generator</a>
-            <a href="https://onecourt.in/sctools/cover-page.html">Cover Page Generator</a>
-            <a href="https://onecourt.in/sctools/office-report-limitation.html">Office Report on Limitation</a>
-            <a href="https://onecourt.in/sctools/proforma-first-listing.html">Proforma for First Listing</a>
-            <a href="https://onecourt.in/bare-acts">Bare Acts</a>
-            <a href="https://onecourt.in/sc/causelist/">SC Cause List</a>
-            <a href="https://onecourt.in/nclt/causelist/">NCLT Cause List</a>
-            <a class="current" href="https://onecourt.in/nclat/causelist/">NCLAT Cause List</a>
-          </div>
-        </details>
-      </nav>
-      <a class="oc-contact" href="https://onecourt.in/Contact%20Us.html">Feedback | Contact Us</a>
+    <div class="jt-right">
+      <oc-menu></oc-menu>
+      <a class="jt-contact-btn" href="https://onecourt.in/Contact%20Us.html"><span class="jt-fb-full">Feedback | Contact Us</span><span class="jt-fb-short">Feedback</span></a>
     </div>
   </div>
 </header>
@@ -263,6 +236,216 @@ mark{background:#ffe08a;color:inherit;padding:0 1px;}
   </div>
 </footer>
 
+<script>
+// OneCourt site menu — single source for the header nav on every page.
+// Edit MENU below to change the menu everywhere (then re-export pages).
+(function () {
+  if (customElements.get('oc-menu')) return;
+  const O = 'https://onecourt.in/';
+  const MENU = [
+    { key: 'sc', label: 'Supreme Court', cols: 3,
+      foot: ['Everything for Supreme Court practice.', 'All SC tools', O + 'tools/OneCourt_Tools.html#sc'],
+      columns: [
+        ['Drafting & Filing', [
+          ['SC Filing Workspace', 'Cover page, SLP index, limitation report, listing proforma', O + 'sctools/index.html', 'Beta'],
+          ['Limitation Calculator', 'Last date for filing, holidays accounted for', O + 'tools/sc-limitation-calculator.html', 'New'],
+          ['Vakalatnama Generator', 'SC & Delhi HC, with memo of appearance', O + 'vakalatnama-generator.html'],
+          ['Affidavit Generator', 'Supporting affidavits in SC format', '#', 'Soon'],
+        ]],
+        ['Court Day', [
+          ['SC Cause List', 'Searchable daily lists, court-wise', O + 'sc/causelist/', 'New'],
+          ['SC VC Hearing Links', 'Courtroom-wise video links', O + 'Supreme_Court_VC_Hearing_Links.html'],
+          ['Supreme Court Access', 'Entry, passes and gates', O + 'supreme-court-access.html'],
+          ['Constitution Bench Transcripts', 'Hearing transcripts of Constitution Bench matters', O + 'sc/cb-transcripts.html', 'New'],
+          ['AOR Exam Guide', 'Syllabus, pattern and preparation', O + 'sc/aor-exam.html'],
+        ]],
+        ['Judges', [
+          ['Sitting Judges', 'Seniority, tenure and days to retirement', O + 'sc/supreme-court-judges.html'],
+          ['Tenure Timeline', 'Every sitting judge on one timeline', O + 'supreme-court-judges-timeline.html'],
+          ['Next CJIs', 'Projected line of succession', O + 'sc/supreme-court-judges.html#succ'],
+          ['Former Judges', 'Complete historical list', O + 'former-judges_supreme_court_of_india.html'],
+          ['Law Officers', 'AGI, SGI and ASGs with their terms', O + 'sc/law-officers.html', 'New'],
+        ]],
+      ]},
+    { key: 'vc', label: 'Hearing Links', cols: 3,
+      foot: ['Supreme Court, High Courts, tribunals and all 11 Delhi districts.', 'All hearing links', O + 'VC_Hearing_Links.html'],
+      columns: [
+        ['Supreme Court & High Courts', [
+          ['Supreme Court of India', 'Courtroom-wise links', O + 'Supreme_Court_VC_Hearing_Links.html'],
+          ['Delhi High Court', 'Bench-wise links', O + 'Delhi_High_Court_VC_Hearing_Link.html'],
+          ['Chhattisgarh High Court', 'Bench-wise links', O + 'vc-links/cg/Chhattisgarh_High_Court_VC_Hearing_Links.html'],
+        ]],
+        ['Tribunals', [
+          ['NCLAT', 'Principal and Chennai benches', O + 'vc-links/nclat/NCLAT_VC_Hearing_Links.html'],
+          ['NCLT', 'Delhi benches', O + 'vc-links/nclt/NCLT_VC_Hearing_Links.html'],
+          ['APTEL', 'Appellate Tribunal for Electricity', O + 'vc-links/aptel/APTEL_VC_Hearing_Links.html'],
+        ]],
+        ['District Courts', [
+          ['Delhi District Courts', 'All 11 districts, court-wise', O + 'vc-links/delhi/districtcourts/Delhi_District_Courts_VC_Links.html'],
+        ]],
+      ]},
+    { key: 'tools', label: 'Tools', cols: 2,
+      foot: ['Every OneCourt tool on one page.', 'All tools', O + 'tools/OneCourt_Tools.html'],
+      columns: [
+        ['Drafting', [
+          ['Generic Vakalatnama', 'For any court or tribunal', '#', 'New'],
+          ['Advocate Fee Invoice', 'Professional fee invoices for clients', O + 'tools/invoice-generator.html', 'New'],
+        ]],
+        ['Reference & Planning', [
+          ['Court Holiday Planner', 'Vacations and holidays across courts', O + 'Court_Holiday_Planner.html'],
+          ['Bare Acts', 'Central statutes, section by section', O + 'bare-acts'],
+          ['Sections Map', 'Old and new criminal laws, mapped', '#', 'Soon'],
+        ]],
+      ]},
+    { key: 'misc', label: 'Misc', cols: 2,
+      foot: ['New to OneCourt?', 'Start here', O + 'about-onecourt.html'],
+      columns: [
+        ['High Courts', [
+          ['Judiciary Tracker', 'Strength, vacancies and appointments', O],
+          ['High Court Judges', 'Sitting judges, court by court', O + 'High_Court_Judges.html'],
+          ['All-India HC Seniority', 'Every HC judge in one ranked list', O + 'High_Court_Seniority.html'],
+        ]],
+        ['OneCourt', [
+          ['Start Here', 'What OneCourt is and how to use it', O + 'about-onecourt.html'],
+          ['Feedback | Contact Us', 'Suggestions, corrections, queries', O + 'Contact%20Us.html'],
+          ['Terms & Conditions', 'Terms of use for onecourt.in', O + 'terms'],
+          ['Privacy Policy', 'How we handle your data', O + 'privacy-policy'],
+        ]],
+      ]},
+  ];
+
+  const CSS = `
+    :host { display:block; font-family:'Inter',system-ui,sans-serif; }
+    * { box-sizing:border-box; }
+    nav { display:flex; align-items:center; gap:4px; }
+    .b { display:inline-flex; align-items:center; gap:6px; height:36px; padding:0 12px; border:none; border-radius:6px; cursor:pointer;
+         font:inherit; font-size:13.5px; white-space:nowrap; background:transparent; color:rgba(255,255,255,.72); }
+    .b:hover, .b[aria-expanded="true"] { color:#fff; }
+    .b[aria-expanded="true"] { background:rgba(255,255,255,.12); }
+    .b .c { font-size:10px; display:inline-block; transition:transform .15s; }
+    .b[aria-expanded="true"] .c { transform:rotate(180deg); }
+    .p { position:fixed; z-index:1000; display:none; background:#fff; color:#1A2027; border:1px solid #E4E7EC; border-radius:12px;
+         box-shadow:0 18px 48px rgba(16,24,40,.22); overflow:hidden; text-align:left; }
+    .p.on { display:block; }
+    .g { display:grid; }
+    .col { padding:22px 22px 18px; border-right:1px solid #EEF0F3; }
+    .col:last-child { border-right:none; }
+    .t { font-size:10.5px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:#98A1AD; margin:0 0 10px 10px; }
+    a.i { display:block; padding:10px; border-radius:8px; text-decoration:none; color:#1A2027; }
+    a.i:hover { background:#F1F3F6; }
+    a.i.soon { opacity:.6; pointer-events:none; }
+    a.i.cur { background:#EEF3FE; }
+    .n { display:flex; align-items:center; gap:8px; font-size:14px; font-weight:600; line-height:1.3; }
+    .d { display:block; font-size:12.5px; color:#5A6472; margin-top:2px; line-height:1.4; }
+    .bd { font-size:9.5px; font-weight:700; letter-spacing:.07em; text-transform:uppercase; padding:2px 6px; border-radius:4px; background:rgba(37,99,235,.1); color:#2563EB; }
+    .bd.s { background:#E4E7EC; color:#5A6472; }
+    .f { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:13px 32px; background:#F1F3F6; border-top:1px solid #E4E7EC; font-size:13px; }
+    .f span { color:#5A6472; }
+    .f a { font-weight:600; color:#2563EB; text-decoration:none; white-space:nowrap; }
+    .f a:hover { text-decoration:underline; }
+    .bg { display:none; width:40px; height:40px; border:1px solid rgba(255,255,255,.25); border-radius:8px; background:transparent; cursor:pointer; align-items:center; justify-content:center; padding:0; }
+    .bg i { display:block; width:18px; height:2px; background:#fff; border-radius:2px; position:relative; transition:background .15s; }
+    .bg i::before, .bg i::after { content:''; position:absolute; left:0; width:18px; height:2px; background:#fff; border-radius:2px; transition:transform .2s, top .2s; }
+    .bg i::before { top:-6px; } .bg i::after { top:6px; }
+    .bg[aria-expanded="true"] i { background:transparent; }
+    .bg[aria-expanded="true"] i::before { top:0; transform:rotate(45deg); }
+    .bg[aria-expanded="true"] i::after { top:0; transform:rotate(-45deg); }
+    .dr { position:fixed; z-index:1000; left:0; right:0; bottom:0; display:none; background:#F7F8FA; color:#1A2027; overflow-y:auto; -webkit-overflow-scrolling:touch; border-top:1px solid #E4E7EC; }
+    .dr.on { display:block; }
+    .ac { border-bottom:1px solid #E4E7EC; background:#fff; }
+    .ah { width:100%; display:flex; align-items:center; justify-content:space-between; min-height:56px; padding:0 20px; border:none; background:none; font:inherit; font-size:16px; font-weight:600; color:#1A2027; cursor:pointer; text-align:left; }
+    .ah .c { font-size:11px; color:#98A1AD; transition:transform .15s; }
+    .ac.on .ah .c { transform:rotate(180deg); }
+    .ab { display:none; padding:0 12px 14px; }
+    .ac.on .ab { display:block; }
+    .ab .t { margin:12px 0 4px 8px; }
+    .ab a.i { display:flex; align-items:center; min-height:44px; padding:8px; font-size:14.5px; font-weight:500; }
+    .ab a.all { display:flex; align-items:center; min-height:44px; padding:8px; margin-top:6px; font-size:14px; font-weight:600; color:#2563EB; text-decoration:none; border-top:1px solid #EEF0F3; }
+    @media (max-width:1100px) { .b { padding:0 8px; font-size:13px; } nav { gap:0; } }
+    @media (max-width:760px) {
+      nav, .p { display:none !important; }
+      .bg { display:inline-flex; }
+    }`;
+  const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
+
+  class OcMenu extends HTMLElement {
+    connectedCallback() {
+      if (this._r) return;
+      this._r = this.attachShadow({ mode: 'open' });
+      const here = location.href.split('#')[0].replace(/\/index\.html$/, '/');
+      const html = MENU.map(m => {
+        const cols = m.columns.map(([title, items]) => `<div class="col"><div class="t">${esc(title)}</div>${items.map(([n, d, h, b]) => {
+          const cur = h !== '#' && h.split('#')[0] === here && !h.includes('#');
+          return `<a class="i${b === 'Soon' ? ' soon' : ''}${cur ? ' cur' : ''}" href="${esc(h)}"><span class="n">${esc(n)}${b ? `<span class="bd${b === 'Soon' ? ' s' : ''}">${esc(b)}</span>` : ''}</span><span class="d">${esc(d)}</span></a>`;
+        }).join('')}</div>`).join('');
+        return `<div class="p" data-k="${m.key}" role="menu"><div class="g" style="grid-template-columns:repeat(${m.cols},minmax(0,1fr))">${cols}</div><div class="f"><span>${esc(m.foot[0])}</span><a href="${esc(m.foot[2])}">${esc(m.foot[1])} →</a></div></div>`;
+      }).join('');
+      const drawer = MENU.map(m => `<div class="ac" data-k="${m.key}"><button class="ah" type="button">${esc(m.label)}<span class="c">▾</span></button><div class="ab">${m.columns.map(([title, items]) => `<div class="t">${esc(title)}</div>${items.map(([n, d, h, b]) => `<a class="i${b === 'Soon' ? ' soon' : ''}" href="${esc(h)}"><span class="n">${esc(n)}${b ? `<span class="bd${b === 'Soon' ? ' s' : ''}">${esc(b)}</span>` : ''}</span></a>`).join('')}`).join('')}<a class="all" href="${esc(m.foot[2])}">${esc(m.foot[1])} →</a></div></div>`).join('');
+      this._r.innerHTML = `<style>${CSS}</style><button class="bg" type="button" aria-label="Menu" aria-expanded="false"><i></i></button><div class="dr" role="dialog" aria-label="Site menu">${drawer}</div><nav>${MENU.map(m => `<button class="b" type="button" data-k="${m.key}" aria-expanded="false">${esc(m.label)}<span class="c">▾</span></button>`).join('')}</nav>${html}`;
+      this._open = null;
+      this._bg = this._r.querySelector('.bg'); this._dr = this._r.querySelector('.dr');
+      this._bg.addEventListener('click', (e) => { e.stopPropagation(); this.drawer(!this._dr.classList.contains('on')); });
+      this._r.querySelectorAll('.ac .ah').forEach(h => h.addEventListener('click', () => { const ac = h.parentElement; const was = ac.classList.contains('on'); this._r.querySelectorAll('.ac').forEach(x => x.classList.remove('on')); if (!was) ac.classList.add('on'); }));
+      this._r.querySelectorAll('.b').forEach(b => b.addEventListener('click', (e) => { e.stopPropagation(); this.toggle(b.dataset.k); }));
+      this._doc = (e) => { if (this._open && !e.composedPath().includes(this)) this.toggle(null); };
+      this._key = (e) => { if (e.key === 'Escape') { if (this._open) this.toggle(null); this.drawer(false); } };
+      this._pos = () => { this.order(); this.place(); this.placeDrawer(); if (document.documentElement.clientWidth > 760) this.drawer(false); };
+      requestAnimationFrame(() => this.order());
+      document.addEventListener('click', this._doc);
+      document.addEventListener('keydown', this._key);
+      window.addEventListener('resize', this._pos);
+      window.addEventListener('scroll', this._pos, { passive: true });
+    }
+    disconnectedCallback() {
+      document.removeEventListener('click', this._doc);
+      document.removeEventListener('keydown', this._key);
+      window.removeEventListener('resize', this._pos);
+      window.removeEventListener('scroll', this._pos);
+    }
+    order() {
+      let el = this, n = 0;
+      while (el.parentElement && n < 4 && !el.parentElement.querySelector(':scope > a[href*="Contact"]')) { el = el.parentElement; n++; }
+      if (!el.parentElement || !el.parentElement.querySelector(':scope > a[href*="Contact"]')) return;
+      el.style.order = document.documentElement.clientWidth <= 760 ? '99' : '';
+    }
+    drawer(on) {
+      if (!this._dr) return;
+      this._dr.classList.toggle('on', on);
+      this._bg.setAttribute('aria-expanded', String(on));
+      document.documentElement.style.overflow = on ? 'hidden' : '';
+      this.placeDrawer();
+    }
+    placeDrawer() {
+      if (!this._dr || !this._dr.classList.contains('on')) return;
+      const header = this.closest('header');
+      this._dr.style.top = Math.max(0, (header || this).getBoundingClientRect().bottom) + 'px';
+    }
+    toggle(k) {
+      this._open = this._open === k ? null : k;
+      this._r.querySelectorAll('.b').forEach(b => b.setAttribute('aria-expanded', String(b.dataset.k === this._open)));
+      this._r.querySelectorAll('.p').forEach(p => p.classList.toggle('on', p.dataset.k === this._open));
+      this.place();
+    }
+    place() {
+      if (!this._open) return;
+      const p = this._r.querySelector('.p.on'); if (!p) return;
+      const header = this.closest('header');
+      const bar = header ? (header.firstElementChild || header) : this;
+      const hr = (header || this).getBoundingClientRect();
+      const br = bar.getBoundingClientRect();
+      const vw = document.documentElement.clientWidth;
+      const mobile = vw <= 760;
+      const top = Math.max(0, hr.bottom) + 8;
+      const left = mobile ? 12 : Math.max(12, br.left);
+      const width = mobile ? vw - 24 : Math.min(br.width, vw - 24);
+      p.style.top = top + 'px'; p.style.left = left + 'px'; p.style.width = width + 'px';
+      p.style.maxHeight = (window.innerHeight - top - 12) + 'px'; p.style.overflowY = 'auto';
+    }
+  }
+  customElements.define('oc-menu', OcMenu);
+})();
+
+</script>
 <script>
 (function () {
   "use strict";
