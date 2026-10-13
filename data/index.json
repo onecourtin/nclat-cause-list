@@ -3719,7 +3719,29 @@
    },
    "items": 191,
    "fetched": "2026-10-13 12:07 IST"
+  },
+  "2026-10-15": {
+   "files": {
+    "chennai-main": {
+     "etag": "",
+     "modified": "Tue, 13 Oct 2026 11:57:11 GMT",
+     "sha": "a1ff959042d1ddfd",
+     "bytes": 405662,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/15.10.2026.pdf",
+     "info": {
+      "ckey": "chennai",
+      "court": "Chennai Bench",
+      "order": 3,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 15.10.2026 - Chennai Bench",
+     "published": "Tue, 13 Oct 2026 11:57:11 GMT"
+    }
+   },
+   "items": 18,
+   "fetched": "2026-10-13 17:37 IST"
   }
  },
- "updated": "2026-10-13 12:07 IST"
+ "updated": "2026-10-13 17:37 IST"
 }
