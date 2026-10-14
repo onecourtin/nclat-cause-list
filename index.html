@@ -2,8 +2,18 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4LGKQR9X0B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-4LGKQR9X0B');
+</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>NCLAT Cause List — OneCourt</title>
+<link rel="icon" type="image/png" href="https://onecourt.in/favicon.png">
+<link rel="apple-touch-icon" href="https://onecourt.in/favicon.png">
 <meta name="description" content="NCLAT daily cause list as a searchable web page — court-wise, with case numbers, parties and counsel. Principal Bench (New Delhi) and Chennai Bench. Updated automatically from the official lists.">
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
@@ -272,6 +282,22 @@ mark{background:#FDE68A;color:inherit;padding:0 1px;}
           ['Law Officers', 'AGI, SGI and ASGs with their terms', O + 'sc/law-officers.html', 'New'],
         ]],
       ]},
+    { key: 'cl', label: 'Cause Lists', cols: 2,
+      foot: ['Supreme Court, High Courts and tribunals, updated through the day.', 'All cause lists', O + 'causelist/'],
+      columns: [
+        ['Supreme Court & High Courts', [
+          ['Supreme Court of India', 'Searchable daily lists, court-wise', O + 'sc/causelist/'],
+          ['Delhi High Court', 'Daily lists, court by court', O + 'dhc/causelist/'],
+        ]],
+        ['Tribunals', [
+          ['NCLAT', 'Principal and Chennai benches', O + 'nclat/causelist/'],
+          ['NCLT', 'Daily lists by location and court', O + 'nclt/causelist/'],
+          ['NGT', 'Principal and zonal benches', O + 'ngt/causelist/'],
+          ['APTEL', 'Courts 1 and 2, by sitting time', O + 'aptel/causelist/'],
+          ['NCDRC', 'Courts 1 to 5, with attached IAs', O + 'ncdrc/causelist/'],
+          ['ITAT', 'Bench-wise index of the official PDFs', O + 'itat/causelist/'],
+        ]],
+      ]},
     { key: 'vc', label: 'Hearing Links', cols: 3,
       foot: ['Supreme Court, High Courts, tribunals and all 11 Delhi districts.', 'All hearing links', O + 'VC_Hearing_Links.html'],
       columns: [
@@ -289,15 +315,9 @@ mark{background:#FDE68A;color:inherit;padding:0 1px;}
           ['Delhi District Courts', 'All 11 districts, court-wise', O + 'vc-links/delhi/districtcourts/Delhi_District_Courts_VC_Links.html'],
         ]],
       ]},
-    { key: 'tools', label: 'Tools', cols: 3,
+    { key: 'tools', label: 'Tools', cols: 2,
       foot: ['Every OneCourt tool on one page.', 'All tools', O + 'tools/OneCourt_Tools.html'],
       columns: [
-        ['Cause Lists', [
-          ['SC Cause List', 'Searchable daily lists, court-wise', O + 'sc/causelist/'],
-          ['Delhi HC Cause List', 'Daily lists, court by court', O + 'dhc/causelist/', 'New'],
-          ['NCLT Cause List', 'Daily lists by location and court', O + 'nclt/causelist/', 'New'],
-          ['NCLAT Cause List', 'Principal and Chennai benches', O + 'nclat/causelist/', 'New'],
-        ]],
         ['Drafting', [
           ['Generic Vakalatnama', 'For any court or tribunal', '#', 'New'],
           ['Advocate Fee Invoice', 'Professional fee invoices for clients', O + 'tools/invoice-generator.html', 'New'],
