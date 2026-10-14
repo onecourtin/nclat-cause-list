@@ -38,10 +38,13 @@ a:hover{color:var(--accent-dark);}
 .jt-fb-short{display:none;}
 
 .app{max-width:1240px;margin:0 auto;padding:36px 24px 64px;}
-header.top{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;border-bottom:1px solid var(--line);padding-bottom:18px;margin-bottom:22px;flex-wrap:wrap;}
-header.top .eyebrow{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:10px;}
-header.top h1{font-size:40px;margin:0;font-weight:600;letter-spacing:-.015em;line-height:1.05;}
+header.top{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:26px;padding-top:8px;flex-wrap:wrap;}
+.hero-l{display:flex;gap:22px;}
+.hero-bar{width:5px;flex-shrink:0;background:var(--accent);margin-top:6px;}
+header.top .eyebrow{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--accent);font-weight:700;margin-bottom:14px;}
+header.top h1{font-size:42px;margin:0;font-weight:700;letter-spacing:-.015em;line-height:1.05;}
 header.top h1 em{font-style:normal;color:var(--accent);}
+header.top .lede{margin:16px 0 0;max-width:640px;font-size:14px;line-height:1.6;color:var(--muted);}
 header.top .meta{font-size:12px;color:var(--muted);text-align:right;}
 
 /* ── Controls ── */
@@ -157,6 +160,7 @@ mark{background:#FDE68A;color:inherit;padding:0 1px;}
   .jt-right{gap:12px;}
   .app{padding:22px 16px 48px;}
   header.top h1{font-size:28px;}
+  .hero-l{gap:14px;}
   header.top .meta{text-align:left;}
   .ctl-row{flex-direction:column;gap:6px;padding:12px;}
   .ctl-label{padding-top:0;flex:none;}
@@ -191,10 +195,11 @@ mark{background:#FDE68A;color:inherit;padding:0 1px;}
 
 <div class="app">
   <header class="top">
-    <div>
+    <div class="hero-l"><div class="hero-bar"></div><div>
       <div class="eyebrow">National Company Law Appellate Tribunal</div>
       <h1>Daily Cause <em>List</em></h1>
-    </div>
+      <p class="lede">Daily cause lists for the Principal Bench and the Chennai Bench, supplementary lists first.</p>
+    </div></div>
     <div class="meta" id="meta"></div>
   </header>
 
