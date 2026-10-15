@@ -98,14 +98,21 @@ select.older{border-radius:6px;font-family:inherit;font-size:13px;padding:6px 8p
 .judges{margin-top:6px;font-size:13.5px;line-height:1.6;}
 .judges div::before{content:"";display:inline-block;width:5px;height:5px;background:var(--gold);margin:0 8px 2px 0;}
 .bench-side{text-align:right;font-size:12px;color:var(--muted);display:flex;flex-direction:column;gap:3px;align-items:flex-end;}
-.live{display:inline-flex;align-items:center;gap:6px;font-size:11.5px;font-weight:600;color:var(--muted);max-width:340px;text-align:right;line-height:1.3;}
-.live::before{content:"";width:7px;height:7px;border-radius:50%;background:#575757;flex-shrink:0;}
-.live.in::before{background:#2c6100;box-shadow:0 0 0 3px rgba(44,97,0,.18);}
-.live.pass::before{background:#275d4c;}
-.live.done::before{background:#1252ba;}
-.live.next::before{background:#9400bd;}
-.live b{color:var(--ink);font-weight:700;}
+.live{display:inline-flex;align-items:center;gap:8px;align-self:flex-end;margin-top:4px;padding:8px 14px;border-radius:8px;border:0;background:#575757;color:#fff;font-size:13.5px;font-weight:600;max-width:400px;text-align:left;line-height:1.35;text-decoration:none;cursor:pointer;box-shadow:0 1px 2px rgba(16,24,40,.18);transition:filter .12s,transform .12s;}
+.live:hover{filter:brightness(1.12);transform:translateY(-1px);}
+.bench-side a.live,.bench-side a.live:hover{color:#fff;text-decoration:none;font-size:13.5px;font-weight:600;}
+.live::before{content:"";width:9px;height:9px;border-radius:50%;background:#fff;flex-shrink:0;opacity:.9;}
+.live.in::before{box-shadow:0 0 0 4px rgba(255,255,255,.3);animation:livepulse 2s ease-in-out infinite;}
+@keyframes livepulse{50%{box-shadow:0 0 0 6px rgba(255,255,255,.08);}}
+.live b{font-weight:800;}
+.live .go{opacity:.8;font-weight:700;}
+.live.in{background:#2c6100;}
+.live.pass{background:#275d4c;}
+.live.done{background:#1252ba;}
+.live.next{background:#9400bd;}
+.live.out{background:#575757;}
 .live[hidden]{display:none;}
+@media(max-width:760px){.live{align-self:flex-start;max-width:100%;}}
 .bench-side .time{font-size:15px;font-weight:700;color:var(--ink);}
 .tag-pill{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:var(--card-alt);padding:2px 7px;margin:2px 0 0 4px;}
 .tag-pill.supp{background:var(--warn-bg);color:var(--warn);}
@@ -725,7 +732,7 @@ mark{background:#FDE68A;color:inherit;padding:0 1px;}
     var day = state.day;
     return list.map(function (bi) {
       var b = day.benches[bi];
-      var live = list[0] === bi && state.date === todayIST() ? '<span class="live" data-live="' + esc(b.ckey) + '" hidden></span>' : "";
+      var live = list[0] === bi && state.date === todayIST() ? '<a class="live" data-live="' + esc(b.ckey) + '" href="https://nclat.nic.in/display-board/" target="_blank" rel="noopener" hidden></a>' : "";
       return '<section class="bench">' + benchHeadHTML(b, live) +
         b.sections.map(function (s) {
           return '<div class="section-title">' + esc(sectionTitle(s.t)) + '<span class="count">' + s.items.length + "</span></div>" +
@@ -871,7 +878,7 @@ mark{background:#FDE68A;color:inherit;padding:0 1px;}
       els[i].className = "live " + c.status;
       els[i].title = (c.title || "") + (liveData.updated ? " — updated " + liveData.updated.slice(11, 16) + " UTC" : "");
       els[i].innerHTML = '<span><b>' + esc(LIVE_LABEL[c.status] || "") + "</b>" +
-        (c.item ? " · Item " + esc(c.item) : "") + (c.case ? " · " + esc(c.case) : "") + "</span>";
+        (c.item ? " · Item " + esc(c.item) : "") + (c.case ? " · " + esc(c.case) : "") + '</span><span class="go">↗</span>';
     }
   }
   function pollLive() {
