@@ -288,6 +288,7 @@ mark{background:#FDE68A;color:inherit;padding:0 1px;}
         ['Supreme Court & High Courts', [
           ['Supreme Court of India', 'Searchable daily lists, court-wise', O + 'sc/causelist/'],
           ['Delhi High Court', 'Daily lists, court by court', O + 'dhc/causelist/'],
+          ['Chhattisgarh High Court', 'Daily lists, court by court', O + 'cghc/causelist/'],
         ]],
         ['Tribunals', [
           ['NCLAT', 'Principal and Chennai benches', O + 'nclat/causelist/'],
@@ -776,7 +777,7 @@ mark{background:#FDE68A;color:inherit;padding:0 1px;}
     var day = state.day;
     $("sources").innerHTML = "<span>Official PDFs:</span>" + day.lists.map(function (l) {
       return '<a href="' + esc(l.url) + '" target="_blank" rel="noopener" title="Published ' + esc(l.published || "") + '">' + esc(l.court) + " — " + esc(l.label) + "</a>";
-    }).join("");
+    }).join("") + '<a href="https://nclat.nic.in/display-board/" target="_blank" rel="noopener" title="Live case status, judgments and daily orders on the NCLAT site">Display board ↗</a>';
     $("meta").innerHTML = "<strong>" + esc(longDate(state.date)) + "</strong><br>" +
       day.lists.length + " lists · " + day.flat.length + " items<br>" +
       "Checked " + esc(day.fetched || "");
