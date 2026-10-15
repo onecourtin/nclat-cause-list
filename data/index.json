@@ -4031,11 +4031,75 @@
      },
      "desc": "Supplementary Cause List for 16.10.2026 - Chennai Bench",
      "published": "Thu, 15 Oct 2026 11:02:09 GMT"
+    },
+    "reg-main": {
+     "etag": "",
+     "modified": "Thu, 15 Oct 2026 14:17:08 GMT",
+     "sha": "bbbc232c9f0ff964",
+     "bytes": 16424,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Registrar%20Court_16.10.2026.pdf",
+     "info": {
+      "ckey": "reg",
+      "court": "Registrar Court",
+      "order": 4,
+      "kind": "main",
+      "seq": 0
+     },
+     "desc": "Cause List for 16.10.2026 - Registrar Court",
+     "published": "Thu, 15 Oct 2026 14:17:08 GMT"
+    },
+    "IV-supp": {
+     "etag": "",
+     "modified": "Thu, 15 Oct 2026 14:16:53 GMT",
+     "sha": "140e3b5210da3b0c",
+     "bytes": 316213,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Supp_Causelist_IV_16.10.2026.pdf",
+     "info": {
+      "ckey": "IV",
+      "court": "Court-IV",
+      "order": 2,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 16.10.2026 - Court-IV",
+     "published": "Thu, 15 Oct 2026 14:16:53 GMT"
+    },
+    "II-supp": {
+     "etag": "",
+     "modified": "Thu, 15 Oct 2026 14:16:42 GMT",
+     "sha": "a9cf5df03587f749",
+     "bytes": 313919,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Supp_Causelist_II_16.10.2026.pdf",
+     "info": {
+      "ckey": "II",
+      "court": "Court-II",
+      "order": 1,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 16.10.2026 - Court-II",
+     "published": "Thu, 15 Oct 2026 14:16:42 GMT"
+    },
+    "ch-supp": {
+     "etag": "",
+     "modified": "Thu, 15 Oct 2026 14:16:31 GMT",
+     "sha": "62e7b323232f7a7e",
+     "bytes": 414866,
+     "url": "https://nclat.nic.in/sites/default/files/2026-10/Supp_Causelist_ch_16.10.2026.pdf",
+     "info": {
+      "ckey": "ch",
+      "court": "Court of Chairperson",
+      "order": 0,
+      "kind": "supp",
+      "seq": 1
+     },
+     "desc": "Supplementary Cause List for 16.10.2026 - Court of Chairperson",
+     "published": "Thu, 15 Oct 2026 14:16:31 GMT"
     }
    },
-   "items": 155,
-   "fetched": "2026-10-15 16:47 IST"
+   "items": 189,
+   "fetched": "2026-10-15 19:51 IST"
   }
  },
- "updated": "2026-10-15 16:47 IST"
+ "updated": "2026-10-15 19:51 IST"
 }
